@@ -190,12 +190,10 @@
     searchOff: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4.2-4.2M8.5 8.5l5 5M13.5 8.5l-5 5"/></svg>',
     plus: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>',
     download: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4.5-4.5M12 15l4.5-4.5"/><path d="M4 19h16"/></svg>',
-    table: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 10v10"/></svg>'
+    table: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 10v10"/></svg>',
+    play: '<svg viewBox="0 0 24 24"><path d="M8 5.5l11 6.5-11 6.5z" fill="currentColor"/></svg>',
+    folderSm: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2-2h4l2.2 2.5H19a2 2 0 0 1 2 2V17a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>'
   };
-  function typeBadge(a) {
-    const cat = assetCategory(a);
-    return '<span class="type-badge tb-' + cat + '" title="' + esc(a.type || "link") + '">' + ICONS[cat] + "</span>";
-  }
 
   /* ---------------- routing ---------------- */
   function route() {
@@ -236,45 +234,59 @@
     nodePath(node).forEach(function (n) { openNodes.add(n.id); });
   }
 
-  /* ---------------- asset card ---------------- */
-  function assetCard(id, opts) {
+  /* ---------------- asset row ---------------- */
+  function assetUrl(a) {
+    // Videos play through Brightcove/YouTube (the MWS video URLs are bare
+    // stubs with no file behind them); everything else uses the MWS file URL.
+    return a.playUrl || a.url || "https://multimedia.3m.com/mws/media/" + a.id + "O";
+  }
+
+  function thumbHtml(a) {
+    const cat = assetCategory(a);
+    let img = "";
+    if (cat === "image" && a.url) img = a.url;
+    else if (a.ytId) img = "https://img.youtube.com/vi/" + a.ytId + "/mqdefault.jpg";
+    // The icon sits underneath; if the image 404s it is removed and the icon shows.
+    const imgTag = img
+      ? '<img src="' + esc(img) + '" loading="lazy" alt="" onerror="this.remove()">'
+      : "";
+    return '<span class="thumb tb-' + cat + '" title="' + esc(a.type || "link") + '">' +
+      ICONS[cat] + imgTag +
+      (cat === "video" ? '<span class="play-badge">' + ICONS.play + "</span>" : "") +
+      "</span>";
+  }
+
+  function assetRow(id, opts) {
     opts = opts || {};
     const a = getAsset(id);
     if (!a) return "";
-    const url = a.url || "https://multimedia.3m.com/mws/media/" + a.id + "O";
+    const url = assetUrl(a);
     const meta = [];
-    meta.push('<span class="m">' + esc(CAT_LABELS[assetCategory(a)]) + "</span>");
-    if (a.size) meta.push('<span class="m">' + formatSize(a.size) + "</span>");
-    if (a.litNumber) meta.push('<span class="m">Lit. ' + esc(a.litNumber) + "</span>");
-    meta.push('<span class="m">ID ' + esc(a.id) + "</span>");
-
-    let pathHtml = "";
+    meta.push(esc(CAT_LABELS[assetCategory(a)]));
+    if (a.size) meta.push(formatSize(a.size));
+    if (a.litNumber) meta.push("Lit. " + esc(a.litNumber));
+    meta.push('<span class="m-id">ID ' + esc(a.id) + "</span>");
     if (opts.showPath) {
       const fids = assetFolderIds.get(id) || [];
-      if (fids.length) {
-        const node = nodeById.get(fids[0]);
-        if (node) {
-          const label = nodePath(node).map(function (n) { return n.name; }).join(" / ");
-          pathHtml = '<div class="asset-path" title="' + esc(label) + '">' +
-            (ICONS.folder ? "" : "") + '<a href="#/f/' + encodeURIComponent(node.id) + '">' + esc(label) + "</a>" +
-            (fids.length > 1 ? ' <span>+' + (fids.length - 1) + " more</span>" : "") + "</div>";
-        }
+      const node = fids.length ? nodeById.get(fids[0]) : null;
+      if (node) {
+        meta.unshift('<a class="m-folder" href="#/f/' + encodeURIComponent(node.id) +
+          '" title="' + esc(nodePath(node).map(function (n) { return n.name; }).join(" / ")) + '">' +
+          ICONS.folderSm + esc(node.name) + "</a>");
       }
     }
+    const tip = a.description ? a.title + " — " + a.description : a.title;
     const isCustom = !!overrides.custom[id];
     return (
-      '<article class="asset-card">' +
-        '<div class="asset-top">' + typeBadge(a) +
-          '<div><h3 class="asset-title"><a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(a.title || "Untitled asset " + a.id) + "</a>" +
-          (isCustom ? ' <span class="tag-new">New</span>' : "") + "</h3>" +
-          '<div class="asset-meta">' + meta.join("") + "</div></div>" +
-        "</div>" +
-        (a.description ? '<p class="asset-desc" title="' + esc(a.description) + '">' + esc(a.description) + "</p>" : "") +
-        pathHtml +
-        '<div class="asset-actions">' +
-          '<a class="btn btn-primary btn-sm" href="' + esc(url) + '" target="_blank" rel="noopener">' + ICONS.open + " Open</a>" +
-          '<button class="btn btn-ghost btn-sm" data-copy="' + esc(url) + '">' + ICONS.copy + " Copy link</button>" +
-        "</div>" +
+      '<article class="asset-row">' + thumbHtml(a) +
+        '<a class="row-title" href="' + esc(url) + '" target="_blank" rel="noopener" title="' + esc(tip) + '">' +
+          esc(a.title || "Untitled asset " + a.id) +
+          (isCustom ? ' <span class="tag-new">New</span>' : "") + "</a>" +
+        '<span class="row-meta">' + meta.join('<span class="dot">·</span>') + "</span>" +
+        '<span class="row-actions">' +
+          '<a class="icon-btn" href="' + esc(url) + '" target="_blank" rel="noopener" title="Open asset" aria-label="Open asset">' + ICONS.open + "</a>" +
+          '<button class="icon-btn" data-copy="' + esc(url) + '" title="Copy link" aria-label="Copy link">' + ICONS.copy + "</button>" +
+        "</span>" +
       "</article>"
     );
   }
@@ -350,7 +362,7 @@
     if (ids.length) {
       html += '<h2 class="section-title">Assets</h2>';
       html += catToolbar(ids, shown.length + " shown");
-      html += '<div class="asset-grid">' + shown.map(function (i) { return assetCard(i); }).join("") + "</div>";
+      html += '<div class="asset-list">' + shown.map(function (i) { return assetRow(i); }).join("") + "</div>";
     } else if (!kids.length) {
       html += emptyState("This folder is empty", "No assets have been published here yet.");
     }
@@ -386,7 +398,7 @@
       '<p class="sub">' + ids.length + " match" + (ids.length === 1 ? "" : "es") + ' for &ldquo;' + esc(q) + "&rdquo;</p></div>";
     if (ids.length) {
       html += catToolbar(ids, shown.length + " shown");
-      html += '<div class="asset-grid">' + shown.map(function (i) { return assetCard(i, { showPath: true }); }).join("") + "</div>";
+      html += '<div class="asset-list">' + shown.map(function (i) { return assetRow(i, { showPath: true }); }).join("") + "</div>";
     } else {
       html += emptyState("No results", "Try a different keyword, an asset ID, or a literature number.");
     }
@@ -770,8 +782,8 @@
   }
 
   function initTheme() {
-    const saved = localStorage.getItem(LS_THEME);
-    const dark = saved ? saved === "dark" : window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches;
+    // Light theme by default; dark only when the user has chosen it.
+    const dark = localStorage.getItem(LS_THEME) === "dark";
     document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
   }
 

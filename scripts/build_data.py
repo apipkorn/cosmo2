@@ -10,6 +10,7 @@ Asset ID, the title, description, MWS download URL, content type, size and
 literature number. Only those public-facing fields are emitted.
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -56,7 +57,7 @@ def parse_metadata(path):
             continue
         aid = cell(row, "Celum Asset ID")
         size = row[idx["Size"]]
-        assets[aid] = {
+        asset = {
             "id": aid,
             "title": cell(row, "Title (English Only)"),
             "description": cell(row, "Description (English Only)"),
@@ -66,6 +67,28 @@ def parse_metadata(path):
             "created": cell(row, "Created"),
             "litNumber": cell(row, "Literature Number"),
         }
+        # Videos: the MWS URL is a bare stub with no playable file behind it.
+        # The Brightcove player URL is the canonical playback link, so use it
+        # (falling back to a player URL built from the Brightcove ID, then
+        # YouTube). Keep the YouTube video id for thumbnails.
+        if asset["type"].startswith("video"):
+            bc_url = cell(row, "Brightcove Video URL")
+            bc_id = cell(row, "Brightcove Video ID")
+            yt_url = cell(row, "YouTube Post URL")
+            play = ""
+            if bc_url:
+                play = re.sub(r"^http://", "https://", bc_url)
+            elif bc_id:
+                play = ("https://players.brightcove.net/2635130879001/"
+                        f"SkM7WPFul_default/index.html?videoId={bc_id}")
+            elif yt_url:
+                play = yt_url
+            if play:
+                asset["playUrl"] = play
+            m = re.search(r"[?&]v=([\w-]{6,})", yt_url) if yt_url else None
+            if m:
+                asset["ytId"] = m.group(1)
+        assets[aid] = asset
     return assets
 
 
