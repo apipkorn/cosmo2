@@ -32,3 +32,7 @@ jobs:
           git commit -m "Update link check report"
           git pull --rebase origin main
           git push
+      - name: Mirror to gh-pages
+        run: |
+          git fetch origin main
+          git push --force origin origin/main:gh-pages
