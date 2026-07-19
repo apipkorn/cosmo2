@@ -44,6 +44,11 @@ python3 -m http.server 8080
 - Filterable, paginated management table with live/added/removed status
 - **Export catalog** downloads the merged catalog (base data + admin changes)
   as JSON
+- **Link check**: probes every published asset link with a 5-second budget
+  from the admin's browser, and can also load the server-side report
+  (`reports/link-report.json`, produced by the *Check asset links* GitHub
+  Action, which additionally sees HTTP status codes). Failing assets can be
+  removed one by one or all at once
 
 ## How data and changes are stored
 
@@ -57,6 +62,13 @@ python3 -m http.server 8080
 > browser only until the exported catalog is republished. For multi-user
 > persistence and real access control, put the exported JSON behind a small
 > API or rebuild `js/data.js` from updated spreadsheets.
+
+## PDF thumbnails
+
+`scripts/make_thumbs.py` downloads each PDF asset and renders its first page
+to `thumbs/<asset id>.jpg` plus a `thumbs/manifest.json` the app reads (the
+*Generate PDF thumbnails* GitHub Action runs it automatically). Image assets
+and YouTube-mirrored videos get thumbnails directly from their sources.
 
 ## Regenerating the catalog from new spreadsheets
 
