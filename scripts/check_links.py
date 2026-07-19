@@ -57,6 +57,19 @@ def probe(url):
                 "verdict": "error", "error": type(e).__name__}
 
 
+def probe_all(urls, workers):
+    results = {}
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {pool.submit(probe, url): url for url in urls}
+        done = 0
+        for fut in as_completed(futures):
+            results[futures[fut]] = fut.result()
+            done += 1
+            if done % 50 == 0:
+                print(f"  {done}/{len(urls)}")
+    return results
+
+
 def main():
     assets = load_assets()
     links = {}  # url -> [asset ids]
@@ -67,16 +80,22 @@ def main():
 
     print(f"Probing {len(links)} unique links for {len(assets)} assets "
           f"(timeout {TIMEOUT:.0f}s)...")
-    results = {}
-    with ThreadPoolExecutor(max_workers=12) as pool:
-        futures = {pool.submit(probe, url): url for url in links}
-        done = 0
-        for fut in as_completed(futures):
-            url = futures[fut]
-            results[url] = fut.result()
-            done += 1
-            if done % 50 == 0:
-                print(f"  {done}/{len(links)}")
+    results = probe_all(links, workers=12)
+
+    # The CDN throttles bursts from a single IP, which shows up as timeouts
+    # at exactly the budget. Re-probe every non-ok link gently (2 workers,
+    # after a pause) up to twice and keep the best result, so only links that
+    # persistently fail or stay slow are reported as failures.
+    for attempt in (2, 3):
+        retry = [u for u, r in results.items() if r["verdict"] != "ok"]
+        if not retry:
+            break
+        print(f"Retry pass {attempt}: {len(retry)} non-ok links at low concurrency...")
+        time.sleep(10)
+        for url, res in probe_all(retry, workers=2).items():
+            res["attempts"] = attempt
+            if res["verdict"] == "ok" or results[url]["verdict"] == "error":
+                results[url] = res
 
     report = {
         "generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),

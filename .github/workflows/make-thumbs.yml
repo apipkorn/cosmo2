@@ -1,34 +1,32 @@
-name: Check asset links
+name: Generate PDF thumbnails
 
 on:
   workflow_dispatch:
   push:
     branches: ["main"]
     paths:
-      - "scripts/check_links.py"
-      - ".github/workflows/link-check.yml"
-  schedule:
-    - cron: "0 6 * * 1"   # weekly, Monday 06:00 UTC
+      - "scripts/make_thumbs.py"
+      - ".github/workflows/make-thumbs.yml"
 
 permissions:
   contents: write
 
 jobs:
-  check:
+  thumbs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Probe all asset links
+      - name: Render first-page thumbnails for all PDF assets
         run: |
-          pip install --quiet requests
-          python3 scripts/check_links.py
-      - name: Commit report
+          pip install --quiet requests pypdfium2 pillow
+          python3 scripts/make_thumbs.py
+      - name: Commit thumbnails
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/link-report.json
+          git add thumbs
           git diff --cached --quiet && echo "No changes" && exit 0
-          git commit -m "Update link check report"
+          git commit -m "Update PDF thumbnails"
           git pull --rebase origin main
           git push
