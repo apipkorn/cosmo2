@@ -15,6 +15,7 @@ Usage:
 import io
 import json
 import sys
+import time
 from pathlib import Path
 
 import requests
@@ -70,9 +71,19 @@ def main():
         if limit is not None and done >= limit:
             break
         try:
-            r = requests.get(a["url"], timeout=TIMEOUT, headers={"User-Agent": UA})
-            r.raise_for_status()
-            render_thumb(r.content, out)
+            # requests' timeout is per-read, not total: a server that trickles
+            # bytes can hang a plain get() indefinitely. Stream with a hard
+            # total deadline instead.
+            buf = io.BytesIO()
+            deadline = time.monotonic() + 60
+            with requests.get(a["url"], timeout=TIMEOUT, stream=True,
+                              headers={"User-Agent": UA}) as r:
+                r.raise_for_status()
+                for chunk in r.iter_content(65536):
+                    buf.write(chunk)
+                    if time.monotonic() > deadline:
+                        raise TimeoutError("total download exceeded 60s")
+            render_thumb(buf.getvalue(), out)
             done += 1
             if done % 25 == 0:
                 print(f"  {done} rendered...")
