@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-03T09:45:13Z",
+ "generated": "2026-08-10T07:39:31Z",
  "timeoutSeconds": 5.0,
  "links": [
   {
@@ -8,7 +8,7 @@
     "1001244"
    ],
    "status": 200,
-   "elapsedMs": 321,
+   "elapsedMs": 196,
    "verdict": "ok"
   },
   {
@@ -17,7 +17,7 @@
     "1009811"
    ],
    "status": 200,
-   "elapsedMs": 315,
+   "elapsedMs": 721,
    "verdict": "ok"
   },
   {
@@ -26,7 +26,7 @@
     "1024021"
    ],
    "status": 200,
-   "elapsedMs": 300,
+   "elapsedMs": 502,
    "verdict": "ok"
   },
   {
@@ -35,7 +35,7 @@
     "1024608"
    ],
    "status": 200,
-   "elapsedMs": 302,
+   "elapsedMs": 980,
    "verdict": "ok"
   },
   {
@@ -44,7 +44,7 @@
     "1032943"
    ],
    "status": 200,
-   "elapsedMs": 293,
+   "elapsedMs": 207,
    "verdict": "ok"
   },
   {
@@ -53,7 +53,7 @@
     "1034875"
    ],
    "status": 200,
-   "elapsedMs": 307,
+   "elapsedMs": 541,
    "verdict": "ok"
   },
   {
@@ -62,9 +62,8 @@
     "1042690"
    ],
    "status": 200,
-   "elapsedMs": 140,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 192,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1042741O/3m-flow-control-brochure.pdf",
@@ -72,7 +71,7 @@
     "1042741"
    ],
    "status": 200,
-   "elapsedMs": 281,
+   "elapsedMs": 633,
    "verdict": "ok"
   },
   {
@@ -81,7 +80,7 @@
     "1042747"
    ],
    "status": 200,
-   "elapsedMs": 277,
+   "elapsedMs": 193,
    "verdict": "ok"
   },
   {
@@ -90,7 +89,7 @@
     "1048496"
    ],
    "status": 200,
-   "elapsedMs": 310,
+   "elapsedMs": 175,
    "verdict": "ok"
   },
   {
@@ -99,7 +98,7 @@
     "1054462"
    ],
    "status": 200,
-   "elapsedMs": 316,
+   "elapsedMs": 177,
    "verdict": "ok"
   },
   {
@@ -108,9 +107,8 @@
     "1064683"
    ],
    "status": 200,
-   "elapsedMs": 141,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 380,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1065728O/efi-vutek-3m-superrange-inks-for-efi-vutek-pro-printers.pdf",
@@ -118,7 +116,7 @@
     "1065728"
    ],
    "status": 200,
-   "elapsedMs": 170,
+   "elapsedMs": 911,
    "verdict": "ok"
   },
   {
@@ -127,7 +125,7 @@
     "1069532"
    ],
    "status": 200,
-   "elapsedMs": 144,
+   "elapsedMs": 1084,
    "verdict": "ok"
   },
   {
@@ -136,7 +134,7 @@
     "1095382"
    ],
    "status": 200,
-   "elapsedMs": 208,
+   "elapsedMs": 680,
    "verdict": "ok"
   },
   {
@@ -145,7 +143,7 @@
     "1095383"
    ],
    "status": 200,
-   "elapsedMs": 198,
+   "elapsedMs": 77,
    "verdict": "ok"
   },
   {
@@ -154,7 +152,7 @@
     "1098952"
    ],
    "status": 200,
-   "elapsedMs": 204,
+   "elapsedMs": 74,
    "verdict": "ok"
   },
   {
@@ -163,7 +161,7 @@
     "1098953"
    ],
    "status": 200,
-   "elapsedMs": 600,
+   "elapsedMs": 57,
    "verdict": "ok"
   },
   {
@@ -172,7 +170,7 @@
     "1102866"
    ],
    "status": 200,
-   "elapsedMs": 199,
+   "elapsedMs": 595,
    "verdict": "ok"
   },
   {
@@ -181,7 +179,7 @@
     "1103536"
    ],
    "status": 200,
-   "elapsedMs": 193,
+   "elapsedMs": 594,
    "verdict": "ok"
   },
   {
@@ -190,7 +188,7 @@
     "1114584"
    ],
    "status": 200,
-   "elapsedMs": 195,
+   "elapsedMs": 481,
    "verdict": "ok"
   },
   {
@@ -199,7 +197,7 @@
     "1114613"
    ],
    "status": 200,
-   "elapsedMs": 133,
+   "elapsedMs": 365,
    "verdict": "ok"
   },
   {
@@ -208,7 +206,7 @@
     "1122063"
    ],
    "status": 200,
-   "elapsedMs": 148,
+   "elapsedMs": 1269,
    "verdict": "ok"
   },
   {
@@ -217,7 +215,7 @@
     "1132658"
    ],
    "status": 200,
-   "elapsedMs": 2037,
+   "elapsedMs": 62,
    "verdict": "ok"
   },
   {
@@ -226,7 +224,7 @@
     "1132683"
    ],
    "status": 200,
-   "elapsedMs": 134,
+   "elapsedMs": 91,
    "verdict": "ok"
   },
   {
@@ -235,7 +233,7 @@
     "1134157"
    ],
    "status": 200,
-   "elapsedMs": 386,
+   "elapsedMs": 45,
    "verdict": "ok"
   },
   {
@@ -244,7 +242,7 @@
     "1142951"
    ],
    "status": 200,
-   "elapsedMs": 169,
+   "elapsedMs": 47,
    "verdict": "ok"
   },
   {
@@ -253,7 +251,7 @@
     "1145162"
    ],
    "status": 200,
-   "elapsedMs": 1407,
+   "elapsedMs": 907,
    "verdict": "ok"
   },
   {
@@ -262,7 +260,7 @@
     "1149084"
    ],
    "status": 200,
-   "elapsedMs": 170,
+   "elapsedMs": 45,
    "verdict": "ok"
   },
   {
@@ -271,7 +269,7 @@
     "1153413"
    ],
    "status": 200,
-   "elapsedMs": 172,
+   "elapsedMs": 378,
    "verdict": "ok"
   },
   {
@@ -280,7 +278,7 @@
     "1156394"
    ],
    "status": 200,
-   "elapsedMs": 137,
+   "elapsedMs": 653,
    "verdict": "ok"
   },
   {
@@ -289,7 +287,7 @@
     "1157642"
    ],
    "status": 200,
-   "elapsedMs": 286,
+   "elapsedMs": 278,
    "verdict": "ok"
   },
   {
@@ -298,7 +296,7 @@
     "1160045"
    ],
    "status": 200,
-   "elapsedMs": 137,
+   "elapsedMs": 82,
    "verdict": "ok"
   },
   {
@@ -307,7 +305,7 @@
     "1160051"
    ],
    "status": 200,
-   "elapsedMs": 271,
+   "elapsedMs": 173,
    "verdict": "ok"
   },
   {
@@ -316,7 +314,7 @@
     "1167158"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 108,
    "verdict": "ok"
   },
   {
@@ -325,7 +323,7 @@
     "1167197"
    ],
    "status": 200,
-   "elapsedMs": 351,
+   "elapsedMs": 361,
    "verdict": "ok"
   },
   {
@@ -334,7 +332,7 @@
     "1167204"
    ],
    "status": 200,
-   "elapsedMs": 334,
+   "elapsedMs": 223,
    "verdict": "ok"
   },
   {
@@ -343,7 +341,7 @@
     "1167217"
    ],
    "status": 200,
-   "elapsedMs": 266,
+   "elapsedMs": 335,
    "verdict": "ok"
   },
   {
@@ -352,7 +350,7 @@
     "1167221"
    ],
    "status": 200,
-   "elapsedMs": 221,
+   "elapsedMs": 360,
    "verdict": "ok"
   },
   {
@@ -361,7 +359,7 @@
     "1167223"
    ],
    "status": 200,
-   "elapsedMs": 220,
+   "elapsedMs": 53,
    "verdict": "ok"
   },
   {
@@ -370,7 +368,7 @@
     "1167225"
    ],
    "status": 200,
-   "elapsedMs": 150,
+   "elapsedMs": 1060,
    "verdict": "ok"
   },
   {
@@ -379,9 +377,8 @@
     "1167271"
    ],
    "status": 200,
-   "elapsedMs": 126,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 300,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1167287O/3m-tm-sun-control-window-film-pr-ext-bank-case-study.pdf",
@@ -389,7 +386,7 @@
     "1167287"
    ],
    "status": 200,
-   "elapsedMs": 4401,
+   "elapsedMs": 63,
    "verdict": "ok"
   },
   {
@@ -398,7 +395,7 @@
     "1172915"
    ],
    "status": 200,
-   "elapsedMs": 3726,
+   "elapsedMs": 1035,
    "verdict": "ok"
   },
   {
@@ -407,7 +404,7 @@
     "1173211"
    ],
    "status": 200,
-   "elapsedMs": 161,
+   "elapsedMs": 44,
    "verdict": "ok"
   },
   {
@@ -416,7 +413,7 @@
     "1173217"
    ],
    "status": 200,
-   "elapsedMs": 177,
+   "elapsedMs": 194,
    "verdict": "ok"
   },
   {
@@ -425,7 +422,7 @@
     "1173219"
    ],
    "status": 200,
-   "elapsedMs": 173,
+   "elapsedMs": 151,
    "verdict": "ok"
   },
   {
@@ -434,7 +431,7 @@
     "1173221"
    ],
    "status": 200,
-   "elapsedMs": 252,
+   "elapsedMs": 808,
    "verdict": "ok"
   },
   {
@@ -443,7 +440,7 @@
     "1173223"
    ],
    "status": 200,
-   "elapsedMs": 136,
+   "elapsedMs": 57,
    "verdict": "ok"
   },
   {
@@ -452,7 +449,7 @@
     "1173225"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 67,
    "verdict": "ok"
   },
   {
@@ -461,7 +458,7 @@
     "1173227"
    ],
    "status": 200,
-   "elapsedMs": 2807,
+   "elapsedMs": 263,
    "verdict": "ok"
   },
   {
@@ -470,7 +467,7 @@
     "1173250"
    ],
    "status": 200,
-   "elapsedMs": 137,
+   "elapsedMs": 756,
    "verdict": "ok"
   },
   {
@@ -479,7 +476,7 @@
     "1174469"
    ],
    "status": 200,
-   "elapsedMs": 3888,
+   "elapsedMs": 400,
    "verdict": "ok"
   },
   {
@@ -488,7 +485,7 @@
     "1174471"
    ],
    "status": 200,
-   "elapsedMs": 134,
+   "elapsedMs": 234,
    "verdict": "ok"
   },
   {
@@ -497,7 +494,7 @@
     "1182156"
    ],
    "status": 200,
-   "elapsedMs": 2681,
+   "elapsedMs": 591,
    "verdict": "ok"
   },
   {
@@ -506,9 +503,8 @@
     "1186153"
    ],
    "status": 200,
-   "elapsedMs": 135,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 457,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1191886O/3m-opaque-graphic-film-color-card-digital-version-high-res.pdf",
@@ -516,9 +512,8 @@
     "1191886"
    ],
    "status": 200,
-   "elapsedMs": 235,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 511,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1193340O/install-prep-for-low-voc-painted-walls-article.pdf",
@@ -526,7 +521,7 @@
     "1193340"
    ],
    "status": 200,
-   "elapsedMs": 126,
+   "elapsedMs": 75,
    "verdict": "ok"
   },
   {
@@ -535,9 +530,8 @@
     "1197563"
    ],
    "status": 200,
-   "elapsedMs": 134,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 431,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1199016O/3m-opaque-graphic-films-poster.pdf",
@@ -545,7 +539,7 @@
     "1199016"
    ],
    "status": 200,
-   "elapsedMs": 140,
+   "elapsedMs": 89,
    "verdict": "ok"
   },
   {
@@ -554,7 +548,7 @@
     "1199022"
    ],
    "status": 200,
-   "elapsedMs": 128,
+   "elapsedMs": 45,
    "verdict": "ok"
   },
   {
@@ -563,7 +557,7 @@
     "1200913"
    ],
    "status": 200,
-   "elapsedMs": 4593,
+   "elapsedMs": 660,
    "verdict": "ok"
   },
   {
@@ -572,7 +566,7 @@
     "1207182"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 691,
    "verdict": "ok"
   },
   {
@@ -581,9 +575,8 @@
     "1209715"
    ],
    "status": 200,
-   "elapsedMs": 130,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 331,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1233005O/3m-di-noc-brochure-2019.pdf",
@@ -591,9 +584,8 @@
     "1233005"
    ],
    "status": 200,
-   "elapsedMs": 134,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 58,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1239347O/3m-envision-print-film-48c-20r-product-bulletin.pdf",
@@ -601,7 +593,7 @@
     "1239347"
    ],
    "status": 200,
-   "elapsedMs": 148,
+   "elapsedMs": 444,
    "verdict": "ok"
   },
   {
@@ -610,7 +602,7 @@
     "1252057"
    ],
    "status": 200,
-   "elapsedMs": 1379,
+   "elapsedMs": 1065,
    "verdict": "ok"
   },
   {
@@ -619,9 +611,8 @@
     "1252060"
    ],
    "status": 200,
-   "elapsedMs": 164,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 486,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1258095O/780mc-10r-bulletin-rc-pdf.pdf",
@@ -629,7 +620,7 @@
     "1258095"
    ],
    "status": 200,
-   "elapsedMs": 140,
+   "elapsedMs": 65,
    "verdict": "ok"
   },
   {
@@ -638,7 +629,7 @@
     "12651"
    ],
    "status": 200,
-   "elapsedMs": 146,
+   "elapsedMs": 92,
    "verdict": "ok"
   },
   {
@@ -647,7 +638,7 @@
     "1268318"
    ],
    "status": 200,
-   "elapsedMs": 782,
+   "elapsedMs": 238,
    "verdict": "ok"
   },
   {
@@ -656,7 +647,7 @@
     "1268319"
    ],
    "status": 200,
-   "elapsedMs": 183,
+   "elapsedMs": 817,
    "verdict": "ok"
   },
   {
@@ -665,9 +656,8 @@
     "1268890"
    ],
    "status": 200,
-   "elapsedMs": 120,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 823,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1272662O/three-duct-tapes-that-can-do-it-all-3m-dt-series-duct-tapes.pdf",
@@ -675,7 +665,7 @@
     "1272662"
    ],
    "status": 200,
-   "elapsedMs": 120,
+   "elapsedMs": 587,
    "verdict": "ok"
   },
   {
@@ -684,7 +674,7 @@
     "1306554"
    ],
    "status": 200,
-   "elapsedMs": 138,
+   "elapsedMs": 83,
    "verdict": "ok"
   },
   {
@@ -693,7 +683,7 @@
     "1325314"
    ],
    "status": 200,
-   "elapsedMs": 121,
+   "elapsedMs": 49,
    "verdict": "ok"
   },
   {
@@ -702,7 +692,7 @@
     "1325315"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 54,
    "verdict": "ok"
   },
   {
@@ -711,7 +701,7 @@
     "1325316"
    ],
    "status": 200,
-   "elapsedMs": 121,
+   "elapsedMs": 41,
    "verdict": "ok"
   },
   {
@@ -720,7 +710,7 @@
     "133241"
    ],
    "status": 200,
-   "elapsedMs": 121,
+   "elapsedMs": 46,
    "verdict": "ok"
   },
   {
@@ -729,7 +719,7 @@
     "1348240"
    ],
    "status": 200,
-   "elapsedMs": 139,
+   "elapsedMs": 373,
    "verdict": "ok"
   },
   {
@@ -738,7 +728,7 @@
     "1350949"
    ],
    "status": 200,
-   "elapsedMs": 2426,
+   "elapsedMs": 1043,
    "verdict": "ok"
   },
   {
@@ -747,7 +737,7 @@
     "1355988"
    ],
    "status": 200,
-   "elapsedMs": 129,
+   "elapsedMs": 946,
    "verdict": "ok"
   },
   {
@@ -756,7 +746,7 @@
     "1355989"
    ],
    "status": 200,
-   "elapsedMs": 129,
+   "elapsedMs": 61,
    "verdict": "ok"
   },
   {
@@ -765,7 +755,7 @@
     "1367212"
    ],
    "status": 200,
-   "elapsedMs": 204,
+   "elapsedMs": 1035,
    "verdict": "ok"
   },
   {
@@ -774,7 +764,7 @@
     "1370286"
    ],
    "status": 200,
-   "elapsedMs": 134,
+   "elapsedMs": 270,
    "verdict": "ok"
   },
   {
@@ -783,9 +773,8 @@
     "1374230"
    ],
    "status": 200,
-   "elapsedMs": 239,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 384,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1374231O",
@@ -793,7 +782,7 @@
     "1374231"
    ],
    "status": 200,
-   "elapsedMs": 1514,
+   "elapsedMs": 255,
    "verdict": "ok"
   },
   {
@@ -802,7 +791,7 @@
     "138749"
    ],
    "status": 200,
-   "elapsedMs": 130,
+   "elapsedMs": 78,
    "verdict": "ok"
   },
   {
@@ -811,7 +800,7 @@
     "1393877"
    ],
    "status": 200,
-   "elapsedMs": 133,
+   "elapsedMs": 681,
    "verdict": "ok"
   },
   {
@@ -820,7 +809,7 @@
     "1406185"
    ],
    "status": 200,
-   "elapsedMs": 125,
+   "elapsedMs": 45,
    "verdict": "ok"
   },
   {
@@ -829,7 +818,7 @@
     "1413181"
    ],
    "status": 200,
-   "elapsedMs": 135,
+   "elapsedMs": 506,
    "verdict": "ok"
   },
   {
@@ -838,7 +827,7 @@
     "1424338"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 393,
    "verdict": "ok"
   },
   {
@@ -847,7 +836,7 @@
     "1424520"
    ],
    "status": 200,
-   "elapsedMs": 248,
+   "elapsedMs": 418,
    "verdict": "ok"
   },
   {
@@ -856,7 +845,7 @@
     "1425895"
    ],
    "status": 200,
-   "elapsedMs": 340,
+   "elapsedMs": 312,
    "verdict": "ok"
   },
   {
@@ -865,7 +854,7 @@
     "1429652"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 202,
    "verdict": "ok"
   },
   {
@@ -874,9 +863,8 @@
     "1439933"
    ],
    "status": 200,
-   "elapsedMs": 129,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 45,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1448905O/disinfection-for-fungi-molds-and-or-yeasts-tech-talk.pdf",
@@ -884,7 +872,7 @@
     "1448905"
    ],
    "status": 200,
-   "elapsedMs": 133,
+   "elapsedMs": 273,
    "verdict": "ok"
   },
   {
@@ -893,9 +881,8 @@
     "1478585"
    ],
    "status": 200,
-   "elapsedMs": 2909,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 678,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1490147O/ij175cv3-product-bulletin.pdf",
@@ -903,7 +890,7 @@
     "1490147"
    ],
    "status": 200,
-   "elapsedMs": 130,
+   "elapsedMs": 64,
    "verdict": "ok"
   },
   {
@@ -912,9 +899,8 @@
     "1491025"
    ],
    "status": 200,
-   "elapsedMs": 134,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 519,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1491811O/rivet-finishing-instruction-bulletin.pdf",
@@ -922,7 +908,7 @@
     "1491811"
    ],
    "status": 200,
-   "elapsedMs": 129,
+   "elapsedMs": 54,
    "verdict": "ok"
   },
   {
@@ -931,7 +917,7 @@
     "1506590"
    ],
    "status": 200,
-   "elapsedMs": 130,
+   "elapsedMs": 283,
    "verdict": "ok"
   },
   {
@@ -940,7 +926,7 @@
     "1507969"
    ],
    "status": 200,
-   "elapsedMs": 1633,
+   "elapsedMs": 384,
    "verdict": "ok"
   },
   {
@@ -949,9 +935,8 @@
     "1511554"
    ],
    "status": 200,
-   "elapsedMs": 122,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 51,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1511555O/scotch-brite-surface-preparation-pad-plus-tech-data-sheet.pdf",
@@ -959,9 +944,8 @@
     "1511555"
    ],
    "status": 200,
-   "elapsedMs": 143,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 48,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1512059O/scotch-brite-clean-and-shine-frequently-asked-questions.pdf",
@@ -969,7 +953,7 @@
     "1512059"
    ],
    "status": 200,
-   "elapsedMs": 126,
+   "elapsedMs": 804,
    "verdict": "ok"
   },
   {
@@ -978,7 +962,7 @@
     "1512755"
    ],
    "status": 200,
-   "elapsedMs": 1001,
+   "elapsedMs": 669,
    "verdict": "ok"
   },
   {
@@ -987,9 +971,8 @@
     "1524814"
    ],
    "status": 200,
-   "elapsedMs": 122,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 71,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1527186O/mcs-warranty-for-brand-owners.pdf",
@@ -997,7 +980,7 @@
     "1527186"
    ],
    "status": 200,
-   "elapsedMs": 145,
+   "elapsedMs": 638,
    "verdict": "ok"
   },
   {
@@ -1006,7 +989,7 @@
     "1527187"
    ],
    "status": 200,
-   "elapsedMs": 123,
+   "elapsedMs": 64,
    "verdict": "ok"
   },
   {
@@ -1015,7 +998,7 @@
     "1541015"
    ],
    "status": 200,
-   "elapsedMs": 142,
+   "elapsedMs": 44,
    "verdict": "ok"
   },
   {
@@ -1024,7 +1007,7 @@
     "1541016"
    ],
    "status": 200,
-   "elapsedMs": 132,
+   "elapsedMs": 56,
    "verdict": "ok"
   },
   {
@@ -1033,7 +1016,7 @@
     "1541017"
    ],
    "status": 200,
-   "elapsedMs": 136,
+   "elapsedMs": 69,
    "verdict": "ok"
   },
   {
@@ -1042,9 +1025,8 @@
     "1541902"
    ],
    "status": 200,
-   "elapsedMs": 119,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 1604,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1541903O/scotch-brite-low-scratch-scour-pad-2000hex-technical-data-sheet.pdf",
@@ -1052,7 +1034,7 @@
     "1541903"
    ],
    "status": 200,
-   "elapsedMs": 126,
+   "elapsedMs": 363,
    "verdict": "ok"
   },
   {
@@ -1061,7 +1043,7 @@
     "1541904"
    ],
    "status": 200,
-   "elapsedMs": 135,
+   "elapsedMs": 275,
    "verdict": "ok"
   },
   {
@@ -1070,7 +1052,7 @@
     "1542758"
    ],
    "status": 200,
-   "elapsedMs": 124,
+   "elapsedMs": 1519,
    "verdict": "ok"
   },
   {
@@ -1079,7 +1061,7 @@
     "1542772"
    ],
    "status": 200,
-   "elapsedMs": 121,
+   "elapsedMs": 1264,
    "verdict": "ok"
   },
   {
@@ -1088,9 +1070,8 @@
     "1542773"
    ],
    "status": 200,
-   "elapsedMs": 133,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 219,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1562682O/scotchgard-stone-floor-protector-application-guide.pdf",
@@ -1098,7 +1079,7 @@
     "1562682"
    ],
    "status": 200,
-   "elapsedMs": 166,
+   "elapsedMs": 1045,
    "verdict": "ok"
   },
   {
@@ -1107,7 +1088,7 @@
     "1576574"
    ],
    "status": 200,
-   "elapsedMs": 217,
+   "elapsedMs": 165,
    "verdict": "ok"
   },
   {
@@ -1116,7 +1097,7 @@
     "1596010"
    ],
    "status": 200,
-   "elapsedMs": 612,
+   "elapsedMs": 898,
    "verdict": "ok"
   },
   {
@@ -1125,7 +1106,7 @@
     "1615059"
    ],
    "status": 200,
-   "elapsedMs": 151,
+   "elapsedMs": 79,
    "verdict": "ok"
   },
   {
@@ -1134,7 +1115,7 @@
     "1647114"
    ],
    "status": 200,
-   "elapsedMs": 142,
+   "elapsedMs": 707,
    "verdict": "ok"
   },
   {
@@ -1143,7 +1124,7 @@
     "1647625"
    ],
    "status": 200,
-   "elapsedMs": 123,
+   "elapsedMs": 70,
    "verdict": "ok"
   },
   {
@@ -1152,7 +1133,7 @@
     "1694858"
    ],
    "status": 200,
-   "elapsedMs": 124,
+   "elapsedMs": 533,
    "verdict": "ok"
   },
   {
@@ -1161,9 +1142,8 @@
     "1704825"
    ],
    "status": 200,
-   "elapsedMs": 120,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 455,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1704826O/3m-anti-graffiti-film-ag6-technical-data-sheet.pdf",
@@ -1171,7 +1151,7 @@
     "1704826"
    ],
    "status": 200,
-   "elapsedMs": 144,
+   "elapsedMs": 47,
    "verdict": "ok"
   },
   {
@@ -1180,7 +1160,7 @@
     "1704829"
    ],
    "status": 200,
-   "elapsedMs": 495,
+   "elapsedMs": 43,
    "verdict": "ok"
   },
   {
@@ -1189,7 +1169,7 @@
     "1704839"
    ],
    "status": 200,
-   "elapsedMs": 129,
+   "elapsedMs": 45,
    "verdict": "ok"
   },
   {
@@ -1198,7 +1178,7 @@
     "1704887"
    ],
    "status": 200,
-   "elapsedMs": 130,
+   "elapsedMs": 45,
    "verdict": "ok"
   },
   {
@@ -1207,7 +1187,7 @@
     "1704924"
    ],
    "status": 200,
-   "elapsedMs": 137,
+   "elapsedMs": 51,
    "verdict": "ok"
   },
   {
@@ -1216,7 +1196,7 @@
     "1704925"
    ],
    "status": 200,
-   "elapsedMs": 4697,
+   "elapsedMs": 166,
    "verdict": "ok"
   },
   {
@@ -1225,7 +1205,7 @@
     "1704926"
    ],
    "status": 200,
-   "elapsedMs": 130,
+   "elapsedMs": 241,
    "verdict": "ok"
   },
   {
@@ -1234,7 +1214,7 @@
     "1704927"
    ],
    "status": 200,
-   "elapsedMs": 151,
+   "elapsedMs": 312,
    "verdict": "ok"
   },
   {
@@ -1243,7 +1223,7 @@
     "1704928"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 40,
    "verdict": "ok"
   },
   {
@@ -1252,7 +1232,7 @@
     "1704930"
    ],
    "status": 200,
-   "elapsedMs": 125,
+   "elapsedMs": 38,
    "verdict": "ok"
   },
   {
@@ -1261,7 +1241,7 @@
     "1704931"
    ],
    "status": 200,
-   "elapsedMs": 128,
+   "elapsedMs": 45,
    "verdict": "ok"
   },
   {
@@ -1270,7 +1250,7 @@
     "1704932"
    ],
    "status": 200,
-   "elapsedMs": 2752,
+   "elapsedMs": 54,
    "verdict": "ok"
   },
   {
@@ -1279,7 +1259,7 @@
     "1704933"
    ],
    "status": 200,
-   "elapsedMs": 130,
+   "elapsedMs": 40,
    "verdict": "ok"
   },
   {
@@ -1288,7 +1268,7 @@
     "1704934"
    ],
    "status": 200,
-   "elapsedMs": 130,
+   "elapsedMs": 68,
    "verdict": "ok"
   },
   {
@@ -1297,7 +1277,7 @@
     "1704953"
    ],
    "status": 200,
-   "elapsedMs": 1644,
+   "elapsedMs": 175,
    "verdict": "ok"
   },
   {
@@ -1306,7 +1286,7 @@
     "1704954"
    ],
    "status": 200,
-   "elapsedMs": 241,
+   "elapsedMs": 176,
    "verdict": "ok"
   },
   {
@@ -1315,7 +1295,7 @@
     "1704955"
    ],
    "status": 200,
-   "elapsedMs": 1531,
+   "elapsedMs": 39,
    "verdict": "ok"
   },
   {
@@ -1324,7 +1304,7 @@
     "1704956"
    ],
    "status": 200,
-   "elapsedMs": 4864,
+   "elapsedMs": 172,
    "verdict": "ok"
   },
   {
@@ -1333,7 +1313,7 @@
     "1704958"
    ],
    "status": 200,
-   "elapsedMs": 129,
+   "elapsedMs": 47,
    "verdict": "ok"
   },
   {
@@ -1342,7 +1322,7 @@
     "1704959"
    ],
    "status": 200,
-   "elapsedMs": 121,
+   "elapsedMs": 48,
    "verdict": "ok"
   },
   {
@@ -1351,7 +1331,7 @@
     "1705617"
    ],
    "status": 200,
-   "elapsedMs": 934,
+   "elapsedMs": 875,
    "verdict": "ok"
   },
   {
@@ -1360,7 +1340,7 @@
     "1705621"
    ],
    "status": 200,
-   "elapsedMs": 2854,
+   "elapsedMs": 760,
    "verdict": "ok"
   },
   {
@@ -1369,7 +1349,7 @@
     "1705624"
    ],
    "status": 200,
-   "elapsedMs": 129,
+   "elapsedMs": 716,
    "verdict": "ok"
   },
   {
@@ -1378,7 +1358,7 @@
     "1706978"
    ],
    "status": 200,
-   "elapsedMs": 2039,
+   "elapsedMs": 556,
    "verdict": "ok"
   },
   {
@@ -1387,7 +1367,7 @@
     "1711251"
    ],
    "status": 200,
-   "elapsedMs": 137,
+   "elapsedMs": 436,
    "verdict": "ok"
   },
   {
@@ -1396,9 +1376,8 @@
     "1726157"
    ],
    "status": 200,
-   "elapsedMs": 163,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 1198,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1745090O/3m-easy-clean-system-brochure.pdf",
@@ -1406,9 +1385,8 @@
     "1745090"
    ],
    "status": 200,
-   "elapsedMs": 129,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 965,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1749580O/3m-all-purpose-floor-finish-stripper-technical-data-sheet.pdf",
@@ -1416,7 +1394,7 @@
     "1749580"
    ],
    "status": 200,
-   "elapsedMs": 133,
+   "elapsedMs": 879,
    "verdict": "ok"
   },
   {
@@ -1425,7 +1403,7 @@
     "1751144"
    ],
    "status": 200,
-   "elapsedMs": 219,
+   "elapsedMs": 762,
    "verdict": "ok"
   },
   {
@@ -1434,9 +1412,8 @@
     "1751382"
    ],
    "status": 200,
-   "elapsedMs": 121,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 40,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1751383O/411-scotch-brite-replacement-squeegee-blade-technical-data-sheet.pdf",
@@ -1444,9 +1421,8 @@
     "1751383"
    ],
    "status": 200,
-   "elapsedMs": 120,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 677,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1752023O/3m-chemical-management-cross-reference-guide.pdf",
@@ -1454,7 +1430,7 @@
     "1752023"
    ],
    "status": 200,
-   "elapsedMs": 121,
+   "elapsedMs": 300,
    "verdict": "ok"
   },
   {
@@ -1463,7 +1439,7 @@
     "1757916"
    ],
    "status": 200,
-   "elapsedMs": 4929,
+   "elapsedMs": 441,
    "verdict": "ok"
   },
   {
@@ -1472,7 +1448,7 @@
     "1764448"
    ],
    "status": 200,
-   "elapsedMs": 4017,
+   "elapsedMs": 333,
    "verdict": "ok"
   },
   {
@@ -1481,9 +1457,8 @@
     "1776746"
    ],
    "status": 200,
-   "elapsedMs": 131,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 272,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1792957O/3m-easy-trap-sweep-and-dust-sheets-flyer.pdf",
@@ -1491,9 +1466,8 @@
     "1792957"
    ],
    "status": 200,
-   "elapsedMs": 130,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 564,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1795070O/octoclean-case-study.pdf",
@@ -1501,7 +1475,7 @@
     "1795070"
    ],
    "status": 200,
-   "elapsedMs": 132,
+   "elapsedMs": 82,
    "verdict": "ok"
   },
   {
@@ -1510,7 +1484,7 @@
     "1805964"
    ],
    "status": 200,
-   "elapsedMs": 613,
+   "elapsedMs": 641,
    "verdict": "ok"
   },
   {
@@ -1519,7 +1493,7 @@
     "1809683"
    ],
    "status": 200,
-   "elapsedMs": 122,
+   "elapsedMs": 53,
    "verdict": "ok"
   },
   {
@@ -1528,7 +1502,7 @@
     "1809684"
    ],
    "status": 200,
-   "elapsedMs": 1412,
+   "elapsedMs": 993,
    "verdict": "ok"
   },
   {
@@ -1537,7 +1511,7 @@
     "1811401"
    ],
    "status": 200,
-   "elapsedMs": 129,
+   "elapsedMs": 74,
    "verdict": "ok"
   },
   {
@@ -1546,9 +1520,8 @@
     "1812906"
    ],
    "status": 200,
-   "elapsedMs": 163,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 893,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1814373O/3m-safety-walk-general-printing-guidelines.pdf",
@@ -1556,9 +1529,8 @@
     "1814373"
    ],
    "status": 200,
-   "elapsedMs": 130,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 741,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1820154O",
@@ -1566,9 +1538,8 @@
     "1820154"
    ],
    "status": 200,
-   "elapsedMs": 185,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 64,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1824630O",
@@ -1576,9 +1547,8 @@
     "1824630"
    ],
    "status": 200,
-   "elapsedMs": 165,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 630,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1825308O",
@@ -1586,7 +1556,7 @@
     "1825308"
    ],
    "status": 200,
-   "elapsedMs": 3812,
+   "elapsedMs": 453,
    "verdict": "ok"
   },
   {
@@ -1595,7 +1565,7 @@
     "1827569"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 168,
    "verdict": "ok"
   },
   {
@@ -1604,9 +1574,8 @@
     "1828527"
    ],
    "status": 200,
-   "elapsedMs": 424,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 536,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1828528O",
@@ -1614,7 +1583,7 @@
     "1828528"
    ],
    "status": 200,
-   "elapsedMs": 3232,
+   "elapsedMs": 325,
    "verdict": "ok"
   },
   {
@@ -1623,7 +1592,7 @@
     "1828529"
    ],
    "status": 200,
-   "elapsedMs": 167,
+   "elapsedMs": 227,
    "verdict": "ok"
   },
   {
@@ -1632,9 +1601,8 @@
     "1828530"
    ],
    "status": 200,
-   "elapsedMs": 411,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 406,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1834530O",
@@ -1642,9 +1610,8 @@
     "1834530"
    ],
    "status": 200,
-   "elapsedMs": 253,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 1195,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1841672O",
@@ -1652,9 +1619,8 @@
     "1841672"
    ],
    "status": 200,
-   "elapsedMs": 309,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 342,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1845584O",
@@ -1662,7 +1628,7 @@
     "1845584"
    ],
    "status": 200,
-   "elapsedMs": 1129,
+   "elapsedMs": 391,
    "verdict": "ok"
   },
   {
@@ -1671,7 +1637,7 @@
     "1848928"
    ],
    "status": 200,
-   "elapsedMs": 1570,
+   "elapsedMs": 364,
    "verdict": "ok"
   },
   {
@@ -1680,7 +1646,7 @@
     "1848929"
    ],
    "status": 200,
-   "elapsedMs": 4611,
+   "elapsedMs": 199,
    "verdict": "ok"
   },
   {
@@ -1689,7 +1655,7 @@
     "1848963"
    ],
    "status": 200,
-   "elapsedMs": 3569,
+   "elapsedMs": 218,
    "verdict": "ok"
   },
   {
@@ -1698,7 +1664,7 @@
     "1848965"
    ],
    "status": 200,
-   "elapsedMs": 3395,
+   "elapsedMs": 1001,
    "verdict": "ok"
   },
   {
@@ -1707,7 +1673,7 @@
     "1854061"
    ],
    "status": 200,
-   "elapsedMs": 2546,
+   "elapsedMs": 69,
    "verdict": "ok"
   },
   {
@@ -1716,7 +1682,7 @@
     "1854062"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 215,
    "verdict": "ok"
   },
   {
@@ -1725,9 +1691,8 @@
     "1854213"
    ],
    "status": 200,
-   "elapsedMs": 166,
-   "verdict": "ok",
-   "attempts": 3
+   "elapsedMs": 1046,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1855436O/3m-clean-shine-daily-floor-enhancer-sell-sheet.pdf",
@@ -1735,7 +1700,7 @@
     "1855436"
    ],
    "status": 200,
-   "elapsedMs": 138,
+   "elapsedMs": 317,
    "verdict": "ok"
   },
   {
@@ -1744,7 +1709,7 @@
     "1861208"
    ],
    "status": 200,
-   "elapsedMs": 134,
+   "elapsedMs": 649,
    "verdict": "ok"
   },
   {
@@ -1753,7 +1718,7 @@
     "1861559"
    ],
    "status": 200,
-   "elapsedMs": 136,
+   "elapsedMs": 598,
    "verdict": "ok"
   },
   {
@@ -1762,7 +1727,7 @@
     "1870794"
    ],
    "status": 200,
-   "elapsedMs": 122,
+   "elapsedMs": 129,
    "verdict": "ok"
   },
   {
@@ -1771,9 +1736,8 @@
     "1872936"
    ],
    "status": 200,
-   "elapsedMs": 131,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 469,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1903142O/scotch-brite-stainless-steel-hood-degreaser-wipes-calculator.pdf",
@@ -1781,9 +1745,8 @@
     "1903142"
    ],
    "status": 200,
-   "elapsedMs": 123,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 406,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1903301O",
@@ -1791,9 +1754,8 @@
     "1903301"
    ],
    "status": 200,
-   "elapsedMs": 165,
-   "verdict": "ok",
-   "attempts": 3
+   "elapsedMs": 648,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1905788O/high-strength-protection-for-high-touch-surfaces.pdf",
@@ -1801,7 +1763,7 @@
     "1905788"
    ],
    "status": 200,
-   "elapsedMs": 134,
+   "elapsedMs": 52,
    "verdict": "ok"
   },
   {
@@ -1810,7 +1772,7 @@
     "1935727"
    ],
    "status": 200,
-   "elapsedMs": 130,
+   "elapsedMs": 64,
    "verdict": "ok"
   },
   {
@@ -1819,9 +1781,8 @@
     "1939099"
    ],
    "status": 200,
-   "elapsedMs": 170,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 365,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1949027O/3m-di-noc-architectural-finishes-abrasion-resistant-ar-series-technical-data-sheet.pdf",
@@ -1829,9 +1790,8 @@
     "1949027"
    ],
    "status": 200,
-   "elapsedMs": 127,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 194,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1955352O",
@@ -1839,7 +1799,7 @@
     "1955352"
    ],
    "status": 200,
-   "elapsedMs": 161,
+   "elapsedMs": 253,
    "verdict": "ok"
   },
   {
@@ -1848,9 +1808,8 @@
     "1959350"
    ],
    "status": 200,
-   "elapsedMs": 357,
-   "verdict": "ok",
-   "attempts": 3
+   "elapsedMs": 934,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/1965597O/pandemic-response-product-brochure-co-branded-for-grainger.pdf",
@@ -1858,7 +1817,7 @@
     "1965597"
    ],
    "status": 200,
-   "elapsedMs": 4717,
+   "elapsedMs": 588,
    "verdict": "ok"
   },
   {
@@ -1867,7 +1826,7 @@
     "1989543"
    ],
    "status": 200,
-   "elapsedMs": 4787,
+   "elapsedMs": 393,
    "verdict": "ok"
   },
   {
@@ -1876,7 +1835,7 @@
     "202318"
    ],
    "status": 200,
-   "elapsedMs": 134,
+   "elapsedMs": 72,
    "verdict": "ok"
   },
   {
@@ -1885,7 +1844,7 @@
     "2068813"
    ],
    "status": 200,
-   "elapsedMs": 4313,
+   "elapsedMs": 856,
    "verdict": "ok"
   },
   {
@@ -1894,7 +1853,7 @@
     "209223"
    ],
    "status": 200,
-   "elapsedMs": 133,
+   "elapsedMs": 231,
    "verdict": "ok"
   },
   {
@@ -1903,7 +1862,7 @@
     "209224"
    ],
    "status": 200,
-   "elapsedMs": 973,
+   "elapsedMs": 66,
    "verdict": "ok"
   },
   {
@@ -1912,7 +1871,7 @@
     "2149722"
    ],
    "status": 200,
-   "elapsedMs": 121,
+   "elapsedMs": 73,
    "verdict": "ok"
   },
   {
@@ -1921,7 +1880,7 @@
     "2149727"
    ],
    "status": 200,
-   "elapsedMs": 227,
+   "elapsedMs": 205,
    "verdict": "ok"
   },
   {
@@ -1930,7 +1889,7 @@
     "2149730"
    ],
    "status": 200,
-   "elapsedMs": 130,
+   "elapsedMs": 67,
    "verdict": "ok"
   },
   {
@@ -1939,7 +1898,7 @@
     "2165701"
    ],
    "status": 200,
-   "elapsedMs": 142,
+   "elapsedMs": 74,
    "verdict": "ok"
   },
   {
@@ -1948,9 +1907,8 @@
     "2172706"
    ],
    "status": 200,
-   "elapsedMs": 128,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 503,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2172707O/3m-concrete-floor-polishing-and-maintenance-system-faq.pdf",
@@ -1958,7 +1916,7 @@
     "2172707"
    ],
    "status": 200,
-   "elapsedMs": 144,
+   "elapsedMs": 232,
    "verdict": "ok"
   },
   {
@@ -1967,7 +1925,7 @@
     "2172708"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 66,
    "verdict": "ok"
   },
   {
@@ -1976,9 +1934,8 @@
     "2175032"
    ],
    "status": 200,
-   "elapsedMs": 130,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 426,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2175143O/3m-concrete-floor-polishing-and-maintenance-system-external-presentation.pdf",
@@ -1986,9 +1943,8 @@
     "2175143"
    ],
    "status": 200,
-   "elapsedMs": 122,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 472,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2187532O/3m-glass-finishes-sample-book-2024-english.pdf",
@@ -1996,9 +1952,8 @@
     "2187532"
    ],
    "status": 200,
-   "elapsedMs": 130,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 258,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2244149O/drywall-preparation-for-3m-di-noc-architectural-finishes.pdf",
@@ -2006,7 +1961,7 @@
     "2244149"
    ],
    "status": 200,
-   "elapsedMs": 130,
+   "elapsedMs": 423,
    "verdict": "ok"
   },
   {
@@ -2015,9 +1970,8 @@
     "2244150"
    ],
    "status": 200,
-   "elapsedMs": 129,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 412,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2279875O/flow-control-healthcare-infographic.pdf",
@@ -2025,7 +1979,7 @@
     "2279875"
    ],
    "status": 200,
-   "elapsedMs": 473,
+   "elapsedMs": 267,
    "verdict": "ok"
   },
   {
@@ -2034,7 +1988,7 @@
     "232701"
    ],
    "status": 200,
-   "elapsedMs": 120,
+   "elapsedMs": 497,
    "verdict": "ok"
   },
   {
@@ -2043,7 +1997,7 @@
     "2338086"
    ],
    "status": 200,
-   "elapsedMs": 128,
+   "elapsedMs": 76,
    "verdict": "ok"
   },
   {
@@ -2052,7 +2006,7 @@
     "2351239"
    ],
    "status": 200,
-   "elapsedMs": 4406,
+   "elapsedMs": 469,
    "verdict": "ok"
   },
   {
@@ -2061,7 +2015,7 @@
     "2352489"
    ],
    "status": 200,
-   "elapsedMs": 4118,
+   "elapsedMs": 315,
    "verdict": "ok"
   },
   {
@@ -2070,9 +2024,8 @@
     "2353422"
    ],
    "status": 200,
-   "elapsedMs": 119,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 111,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2365090O/uv-clears-product-instruction-bulletin.pdf",
@@ -2080,7 +2033,7 @@
     "2365090"
    ],
    "status": 200,
-   "elapsedMs": 3131,
+   "elapsedMs": 716,
    "verdict": "ok"
   },
   {
@@ -2089,7 +2042,7 @@
     "2365115"
    ],
    "status": 200,
-   "elapsedMs": 2597,
+   "elapsedMs": 658,
    "verdict": "ok"
   },
   {
@@ -2098,7 +2051,7 @@
     "2365188"
    ],
    "status": 200,
-   "elapsedMs": 2581,
+   "elapsedMs": 393,
    "verdict": "ok"
   },
   {
@@ -2107,7 +2060,7 @@
     "2365189"
    ],
    "status": 200,
-   "elapsedMs": 2183,
+   "elapsedMs": 380,
    "verdict": "ok"
   },
   {
@@ -2116,7 +2069,7 @@
     "2365190"
    ],
    "status": 200,
-   "elapsedMs": 124,
+   "elapsedMs": 464,
    "verdict": "ok"
   },
   {
@@ -2125,7 +2078,7 @@
     "2365362"
    ],
    "status": 200,
-   "elapsedMs": 122,
+   "elapsedMs": 58,
    "verdict": "ok"
   },
   {
@@ -2134,7 +2087,7 @@
     "2374664"
    ],
    "status": 200,
-   "elapsedMs": 130,
+   "elapsedMs": 392,
    "verdict": "ok"
   },
   {
@@ -2143,9 +2096,8 @@
     "2374799"
    ],
    "status": 200,
-   "elapsedMs": 134,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 468,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2374802O/education-3d-vertical-sell-sheet.pdf",
@@ -2153,9 +2105,8 @@
     "2374802"
    ],
    "status": 200,
-   "elapsedMs": 129,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 300,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2374826O/hospitality-3d-vertical-sell-sheet.pdf",
@@ -2163,9 +2114,8 @@
     "2374826"
    ],
    "status": 200,
-   "elapsedMs": 128,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 385,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2395419O/3m-paint-protection-film-series-150-gloss-product-bulletin-rev-a.docx",
@@ -2173,9 +2123,8 @@
     "2395419"
    ],
    "status": 200,
-   "elapsedMs": 136,
-   "verdict": "ok",
-   "attempts": 3
+   "elapsedMs": 767,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2396468O/3m-paint-protection-film-series-150-brochure.pdf",
@@ -2183,7 +2132,7 @@
     "2396468"
    ],
    "status": 200,
-   "elapsedMs": 141,
+   "elapsedMs": 229,
    "verdict": "ok"
   },
   {
@@ -2192,9 +2141,8 @@
     "2396758"
    ],
    "status": 200,
-   "elapsedMs": 134,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 329,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2398176O/3m-protection-wrap-film-installation-guide-rev-a.pdf",
@@ -2202,7 +2150,7 @@
     "2398176"
    ],
    "status": 200,
-   "elapsedMs": 129,
+   "elapsedMs": 56,
    "verdict": "ok"
   },
   {
@@ -2211,7 +2159,7 @@
     "2398184"
    ],
    "status": 200,
-   "elapsedMs": 130,
+   "elapsedMs": 54,
    "verdict": "ok"
   },
   {
@@ -2220,9 +2168,8 @@
     "2398297"
    ],
    "status": 200,
-   "elapsedMs": 130,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 305,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2401767O/instruction-bulletin-application-3m-application-tapes-for-graphic-films-ra-pdf.pdf",
@@ -2230,7 +2177,7 @@
     "2401767"
    ],
    "status": 200,
-   "elapsedMs": 136,
+   "elapsedMs": 270,
    "verdict": "ok"
   },
   {
@@ -2239,9 +2186,8 @@
     "2413015"
    ],
    "status": 200,
-   "elapsedMs": 129,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 364,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2413234O/3m-commercial-window-films-brochure.pdf",
@@ -2249,7 +2195,7 @@
     "2413234"
    ],
    "status": 200,
-   "elapsedMs": 121,
+   "elapsedMs": 77,
    "verdict": "ok"
   },
   {
@@ -2258,7 +2204,7 @@
     "2415747"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 544,
    "verdict": "ok"
   },
   {
@@ -2267,7 +2213,7 @@
     "2415748"
    ],
    "status": 200,
-   "elapsedMs": 137,
+   "elapsedMs": 59,
    "verdict": "ok"
   },
   {
@@ -2276,7 +2222,7 @@
     "2415749"
    ],
    "status": 200,
-   "elapsedMs": 122,
+   "elapsedMs": 74,
    "verdict": "ok"
   },
   {
@@ -2285,9 +2231,8 @@
     "2415750"
    ],
    "status": 200,
-   "elapsedMs": 119,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 399,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2418775O/3m-pattern-marketplace-sell-sheet.pdf",
@@ -2295,7 +2240,7 @@
     "2418775"
    ],
    "status": 200,
-   "elapsedMs": 128,
+   "elapsedMs": 202,
    "verdict": "ok"
   },
   {
@@ -2304,9 +2249,8 @@
     "2418810"
    ],
    "status": 200,
-   "elapsedMs": 163,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 252,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2419560O/instruction-bulletin-production-lamination-ra-pdf.pdf",
@@ -2314,7 +2258,7 @@
     "2419560"
    ],
    "status": 200,
-   "elapsedMs": 133,
+   "elapsedMs": 130,
    "verdict": "ok"
   },
   {
@@ -2323,7 +2267,7 @@
     "2419561"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 79,
    "verdict": "ok"
   },
   {
@@ -2332,7 +2276,7 @@
     "2419563"
    ],
    "status": 200,
-   "elapsedMs": 133,
+   "elapsedMs": 115,
    "verdict": "ok"
   },
   {
@@ -2341,7 +2285,7 @@
     "2419565"
    ],
    "status": 200,
-   "elapsedMs": 130,
+   "elapsedMs": 127,
    "verdict": "ok"
   },
   {
@@ -2350,7 +2294,7 @@
     "2419568"
    ],
    "status": 200,
-   "elapsedMs": 132,
+   "elapsedMs": 134,
    "verdict": "ok"
   },
   {
@@ -2359,7 +2303,7 @@
     "2419569"
    ],
    "status": 200,
-   "elapsedMs": 134,
+   "elapsedMs": 154,
    "verdict": "ok"
   },
   {
@@ -2368,7 +2312,7 @@
     "2419610"
    ],
    "status": 200,
-   "elapsedMs": 148,
+   "elapsedMs": 136,
    "verdict": "ok"
   },
   {
@@ -2377,7 +2321,7 @@
     "2419612"
    ],
    "status": 200,
-   "elapsedMs": 138,
+   "elapsedMs": 296,
    "verdict": "ok"
   },
   {
@@ -2386,7 +2330,7 @@
     "2419614"
    ],
    "status": 200,
-   "elapsedMs": 139,
+   "elapsedMs": 105,
    "verdict": "ok"
   },
   {
@@ -2395,7 +2339,7 @@
     "2419615"
    ],
    "status": 200,
-   "elapsedMs": 137,
+   "elapsedMs": 81,
    "verdict": "ok"
   },
   {
@@ -2404,7 +2348,7 @@
     "2419617"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 270,
    "verdict": "ok"
   },
   {
@@ -2413,7 +2357,7 @@
     "2419618"
    ],
    "status": 200,
-   "elapsedMs": 140,
+   "elapsedMs": 91,
    "verdict": "ok"
   },
   {
@@ -2422,7 +2366,7 @@
     "242838"
    ],
    "status": 200,
-   "elapsedMs": 130,
+   "elapsedMs": 112,
    "verdict": "ok"
   },
   {
@@ -2431,7 +2375,7 @@
     "2429150"
    ],
    "status": 200,
-   "elapsedMs": 125,
+   "elapsedMs": 147,
    "verdict": "ok"
   },
   {
@@ -2440,7 +2384,7 @@
     "2429151"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 84,
    "verdict": "ok"
   },
   {
@@ -2449,7 +2393,7 @@
     "2429153"
    ],
    "status": 200,
-   "elapsedMs": 140,
+   "elapsedMs": 116,
    "verdict": "ok"
   },
   {
@@ -2458,7 +2402,7 @@
     "2429154"
    ],
    "status": 200,
-   "elapsedMs": 141,
+   "elapsedMs": 139,
    "verdict": "ok"
   },
   {
@@ -2467,9 +2411,8 @@
     "2525406"
    ],
    "status": 200,
-   "elapsedMs": 130,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 163,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2526143O/3m-and-scotchgard-floor-care-competitive-reference-diversey.pdf",
@@ -2477,7 +2420,7 @@
     "2526143"
    ],
    "status": 200,
-   "elapsedMs": 129,
+   "elapsedMs": 254,
    "verdict": "ok"
   },
   {
@@ -2486,9 +2429,8 @@
     "2532606"
    ],
    "status": 200,
-   "elapsedMs": 132,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 379,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2532608O/ij280-distributor-film-sample-sticky-fingers-pdf.pdf",
@@ -2496,9 +2438,8 @@
     "2532608"
    ],
    "status": 200,
-   "elapsedMs": 131,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 608,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2538219O/3m-overlaminates-for-exterior-walls-sell-sheet.pdf",
@@ -2506,7 +2447,7 @@
     "2538219"
    ],
    "status": 200,
-   "elapsedMs": 122,
+   "elapsedMs": 184,
    "verdict": "ok"
   },
   {
@@ -2515,7 +2456,7 @@
     "2538221"
    ],
    "status": 200,
-   "elapsedMs": 133,
+   "elapsedMs": 330,
    "verdict": "ok"
   },
   {
@@ -2524,7 +2465,7 @@
     "254031"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 549,
    "verdict": "ok"
   },
   {
@@ -2533,7 +2474,7 @@
     "2561976"
    ],
    "status": 200,
-   "elapsedMs": 130,
+   "elapsedMs": 601,
    "verdict": "ok"
   },
   {
@@ -2542,9 +2483,8 @@
     "2561980"
    ],
    "status": 200,
-   "elapsedMs": 124,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 541,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2561982O/manufacturing-co-brandable-3d-distributor-sell-sheet-pdfa.pdf",
@@ -2552,9 +2492,8 @@
     "2561982"
    ],
    "status": 200,
-   "elapsedMs": 120,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 318,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2561986O/restaurant-3d-co-brandable-distributor-sell-sheet-pdfa.pdf",
@@ -2562,7 +2501,7 @@
     "2561986"
    ],
    "status": 200,
-   "elapsedMs": 132,
+   "elapsedMs": 381,
    "verdict": "ok"
   },
   {
@@ -2571,9 +2510,8 @@
     "2567671"
    ],
    "status": 200,
-   "elapsedMs": 131,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 478,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2578894O/3m-overlaminates-for-fleet-vehicles-sell-sheet-print-only.pdf",
@@ -2581,9 +2519,8 @@
     "2578894"
    ],
    "status": 200,
-   "elapsedMs": 130,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 335,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2578895O/3m-overlaminates-for-specialty-applications-sell-sheet-print-only.pdf",
@@ -2591,7 +2528,7 @@
     "2578895"
    ],
    "status": 200,
-   "elapsedMs": 344,
+   "elapsedMs": 228,
    "verdict": "ok"
   },
   {
@@ -2600,9 +2537,8 @@
     "2582092"
    ],
    "status": 200,
-   "elapsedMs": 120,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 499,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2598215O/3m-oil-quality-test-strip-sales-guide-print-only.pdf",
@@ -2610,7 +2546,7 @@
     "2598215"
    ],
    "status": 200,
-   "elapsedMs": 119,
+   "elapsedMs": 89,
    "verdict": "ok"
   },
   {
@@ -2619,7 +2555,7 @@
     "2604265"
    ],
    "status": 200,
-   "elapsedMs": 125,
+   "elapsedMs": 292,
    "verdict": "ok"
   },
   {
@@ -2628,9 +2564,8 @@
     "2623716"
    ],
    "status": 200,
-   "elapsedMs": 132,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 56,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/2623717O/c-store-3d-co-brandable-distributor-sell-sheet-print-only.pdf",
@@ -2638,7 +2573,7 @@
     "2623717"
    ],
    "status": 200,
-   "elapsedMs": 4836,
+   "elapsedMs": 223,
    "verdict": "ok"
   },
   {
@@ -2647,7 +2582,7 @@
     "2623718"
    ],
    "status": 200,
-   "elapsedMs": 4455,
+   "elapsedMs": 286,
    "verdict": "ok"
   },
   {
@@ -2656,7 +2591,7 @@
     "2624109"
    ],
    "status": 200,
-   "elapsedMs": 4304,
+   "elapsedMs": 432,
    "verdict": "ok"
   },
   {
@@ -2665,9 +2600,8 @@
     "2668289"
    ],
    "status": 200,
-   "elapsedMs": 122,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 340,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/274455O/scotchcal-graphic-film-ij3650-10-ij3650-114.pdf",
@@ -2675,7 +2609,7 @@
     "274455"
    ],
    "status": 200,
-   "elapsedMs": 130,
+   "elapsedMs": 56,
    "verdict": "ok"
   },
   {
@@ -2684,7 +2618,7 @@
     "2797082"
    ],
    "status": 200,
-   "elapsedMs": 1111,
+   "elapsedMs": 249,
    "verdict": "ok"
   },
   {
@@ -2693,9 +2627,8 @@
     "282111"
    ],
    "status": 200,
-   "elapsedMs": 168,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 363,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/282921O/3m-diamond-grade-conspicuity-markings-series-983.pdf",
@@ -2703,7 +2636,7 @@
     "282921"
    ],
    "status": 200,
-   "elapsedMs": 129,
+   "elapsedMs": 84,
    "verdict": "ok"
   },
   {
@@ -2712,7 +2645,7 @@
     "316894"
    ],
    "status": 200,
-   "elapsedMs": 135,
+   "elapsedMs": 94,
    "verdict": "ok"
   },
   {
@@ -2721,9 +2654,8 @@
     "316896"
    ],
    "status": 200,
-   "elapsedMs": 140,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 230,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/328280O/product-selection-guide.pdf",
@@ -2731,7 +2663,7 @@
     "328280"
    ],
    "status": 200,
-   "elapsedMs": 121,
+   "elapsedMs": 70,
    "verdict": "ok"
   },
   {
@@ -2740,7 +2672,7 @@
     "341625"
    ],
    "status": 200,
-   "elapsedMs": 134,
+   "elapsedMs": 1525,
    "verdict": "ok"
   },
   {
@@ -2749,7 +2681,7 @@
     "349914"
    ],
    "status": 200,
-   "elapsedMs": 121,
+   "elapsedMs": 108,
    "verdict": "ok"
   },
   {
@@ -2758,7 +2690,7 @@
     "353635"
    ],
    "status": 200,
-   "elapsedMs": 132,
+   "elapsedMs": 96,
    "verdict": "ok"
   },
   {
@@ -2767,7 +2699,7 @@
     "371794"
    ],
    "status": 200,
-   "elapsedMs": 129,
+   "elapsedMs": 1290,
    "verdict": "ok"
   },
   {
@@ -2776,7 +2708,7 @@
     "376871"
    ],
    "status": 200,
-   "elapsedMs": 808,
+   "elapsedMs": 1349,
    "verdict": "ok"
   },
   {
@@ -2785,7 +2717,7 @@
     "400976"
    ],
    "status": 200,
-   "elapsedMs": 121,
+   "elapsedMs": 1180,
    "verdict": "ok"
   },
   {
@@ -2794,7 +2726,7 @@
     "440119"
    ],
    "status": 200,
-   "elapsedMs": 455,
+   "elapsedMs": 288,
    "verdict": "ok"
   },
   {
@@ -2803,7 +2735,7 @@
     "443279"
    ],
    "status": 200,
-   "elapsedMs": 276,
+   "elapsedMs": 1190,
    "verdict": "ok"
   },
   {
@@ -2812,7 +2744,7 @@
     "451274"
    ],
    "status": 200,
-   "elapsedMs": 135,
+   "elapsedMs": 72,
    "verdict": "ok"
   },
   {
@@ -2821,7 +2753,7 @@
     "50650"
    ],
    "status": 200,
-   "elapsedMs": 132,
+   "elapsedMs": 520,
    "verdict": "ok"
   },
   {
@@ -2830,9 +2762,8 @@
     "50652"
    ],
    "status": 200,
-   "elapsedMs": 139,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 61,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/507552O/scotch-brite-diamond-floor-pad-plus-system.pdf",
@@ -2840,7 +2771,7 @@
     "507552"
    ],
    "status": 200,
-   "elapsedMs": 144,
+   "elapsedMs": 1714,
    "verdict": "ok"
   },
   {
@@ -2849,7 +2780,7 @@
     "509824"
    ],
    "status": 200,
-   "elapsedMs": 139,
+   "elapsedMs": 88,
    "verdict": "ok"
   },
   {
@@ -2858,7 +2789,7 @@
     "509825"
    ],
    "status": 200,
-   "elapsedMs": 152,
+   "elapsedMs": 1407,
    "verdict": "ok"
   },
   {
@@ -2867,9 +2798,8 @@
     "509842"
    ],
    "status": 200,
-   "elapsedMs": 132,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 1473,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/509843O/scotch-brite-tm-quick-clean-griddle-liquid-tech-data-sheet.pdf",
@@ -2877,7 +2807,7 @@
     "509843"
    ],
    "status": 200,
-   "elapsedMs": 137,
+   "elapsedMs": 45,
    "verdict": "ok"
   },
   {
@@ -2886,7 +2816,7 @@
     "509847"
    ],
    "status": 200,
-   "elapsedMs": 142,
+   "elapsedMs": 1478,
    "verdict": "ok"
   },
   {
@@ -2895,7 +2825,7 @@
     "510074"
    ],
    "status": 200,
-   "elapsedMs": 136,
+   "elapsedMs": 1215,
    "verdict": "ok"
   },
   {
@@ -2904,9 +2834,8 @@
     "510075"
    ],
    "status": 200,
-   "elapsedMs": 135,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 1041,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/510077O/scotch-brite-power-pad-2000-and-2000bp.pdf",
@@ -2914,7 +2843,7 @@
     "510077"
    ],
    "status": 200,
-   "elapsedMs": 132,
+   "elapsedMs": 969,
    "verdict": "ok"
   },
   {
@@ -2923,9 +2852,8 @@
     "510643"
    ],
    "status": 200,
-   "elapsedMs": 340,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 767,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/513384O",
@@ -2933,9 +2861,8 @@
     "513384"
    ],
    "status": 200,
-   "elapsedMs": 151,
-   "verdict": "ok",
-   "attempts": 3
+   "elapsedMs": 684,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/513385O",
@@ -2943,9 +2870,8 @@
     "513385"
    ],
    "status": 200,
-   "elapsedMs": 245,
-   "verdict": "ok",
-   "attempts": 3
+   "elapsedMs": 373,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/513386O",
@@ -2953,9 +2879,8 @@
     "513386"
    ],
    "status": 200,
-   "elapsedMs": 153,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 531,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/513387O/2020-2020cc-scotch-brite-purple-scour-pad.pdf",
@@ -2963,7 +2888,7 @@
     "513387"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 157,
    "verdict": "ok"
   },
   {
@@ -2972,9 +2897,8 @@
     "523888"
    ],
    "status": 200,
-   "elapsedMs": 230,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 316,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/523889O/scotch-brite-general-purpose-scrubbing-pad-no-9650.pdf",
@@ -2982,9 +2906,8 @@
     "523889"
    ],
    "status": 200,
-   "elapsedMs": 132,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 52,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/559989O/lf-200-uv-piezo-inkjet-ink-series-mimaki-ujv-160-printer.pdf",
@@ -2992,9 +2915,8 @@
     "559989"
    ],
    "status": 200,
-   "elapsedMs": 124,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 730,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/560296O/pb-3430-usa-3mar2023-with-digimg-tables-final-pdf.pdf",
@@ -3002,7 +2924,7 @@
     "560296"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 54,
    "verdict": "ok"
   },
   {
@@ -3011,7 +2933,7 @@
     "568164"
    ],
    "status": 200,
-   "elapsedMs": 241,
+   "elapsedMs": 351,
    "verdict": "ok"
   },
   {
@@ -3020,9 +2942,8 @@
     "585980"
    ],
    "status": 200,
-   "elapsedMs": 241,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 385,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/587520O/scotch-brite-light-duty-scrubbing-pad-9030.pdf",
@@ -3030,7 +2951,7 @@
     "587520"
    ],
    "status": 200,
-   "elapsedMs": 1843,
+   "elapsedMs": 53,
    "verdict": "ok"
   },
   {
@@ -3039,7 +2960,7 @@
     "587885"
    ],
    "status": 200,
-   "elapsedMs": 134,
+   "elapsedMs": 397,
    "verdict": "ok"
   },
   {
@@ -3048,7 +2969,7 @@
     "591831"
    ],
    "status": 200,
-   "elapsedMs": 138,
+   "elapsedMs": 908,
    "verdict": "ok"
   },
   {
@@ -3057,7 +2978,7 @@
     "592873"
    ],
    "status": 200,
-   "elapsedMs": 124,
+   "elapsedMs": 74,
    "verdict": "ok"
   },
   {
@@ -3066,9 +2987,8 @@
     "60012"
    ],
    "status": 200,
-   "elapsedMs": 121,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 52,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/60013O/3m-white-super-polish-pad-4100-tech-data-sheet.pdf",
@@ -3076,9 +2996,8 @@
     "60013"
    ],
    "status": 200,
-   "elapsedMs": 138,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 759,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/60016O/3m-red-buffer-pad-5100-tech-data-sheet.pdf",
@@ -3086,7 +3005,7 @@
     "60016"
    ],
    "status": 200,
-   "elapsedMs": 140,
+   "elapsedMs": 270,
    "verdict": "ok"
   },
   {
@@ -3095,9 +3014,8 @@
     "60017"
    ],
    "status": 200,
-   "elapsedMs": 130,
-   "verdict": "ok",
-   "attempts": 3
+   "elapsedMs": 628,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/60019O/3m-black-stripper-pad-7200-tech-data-sheet.pdf",
@@ -3105,7 +3023,7 @@
     "60019"
    ],
    "status": 200,
-   "elapsedMs": 143,
+   "elapsedMs": 168,
    "verdict": "ok"
   },
   {
@@ -3114,9 +3032,8 @@
     "60020"
    ],
    "status": 200,
-   "elapsedMs": 136,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 165,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/60021O/3m-eraser-burnish-pad-3600-tech-data-sheet.pdf",
@@ -3124,9 +3041,8 @@
     "60021"
    ],
    "status": 200,
-   "elapsedMs": 131,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 53,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/60039O/4a-4l-bathroom-disinfectant-cleaner-concentrate-tech-data-sheet.pdf",
@@ -3134,7 +3050,7 @@
     "60039"
    ],
    "status": 200,
-   "elapsedMs": 136,
+   "elapsedMs": 406,
    "verdict": "ok"
   },
   {
@@ -3143,7 +3059,7 @@
     "60040"
    ],
    "status": 200,
-   "elapsedMs": 142,
+   "elapsedMs": 61,
    "verdict": "ok"
   },
   {
@@ -3152,7 +3068,7 @@
     "60041"
    ],
    "status": 200,
-   "elapsedMs": 135,
+   "elapsedMs": 340,
    "verdict": "ok"
   },
   {
@@ -3161,7 +3077,7 @@
     "60042"
    ],
    "status": 200,
-   "elapsedMs": 135,
+   "elapsedMs": 53,
    "verdict": "ok"
   },
   {
@@ -3170,7 +3086,7 @@
     "60057"
    ],
    "status": 200,
-   "elapsedMs": 128,
+   "elapsedMs": 920,
    "verdict": "ok"
   },
   {
@@ -3179,9 +3095,8 @@
     "60058"
    ],
    "status": 200,
-   "elapsedMs": 120,
-   "verdict": "ok",
-   "attempts": 3
+   "elapsedMs": 869,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/60076O/22a-22h-floor-stripper-lo-concentrate-tech-data-sheet.pdf",
@@ -3189,9 +3104,8 @@
     "60076"
    ],
    "status": 200,
-   "elapsedMs": 195,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 78,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/60140O/stainless-steel-cleaner-and-polish-aerosol-tech-data-sheet.pdf",
@@ -3199,7 +3113,7 @@
     "60140"
    ],
    "status": 200,
-   "elapsedMs": 134,
+   "elapsedMs": 75,
    "verdict": "ok"
   },
   {
@@ -3208,7 +3122,7 @@
     "60144"
    ],
    "status": 200,
-   "elapsedMs": 135,
+   "elapsedMs": 781,
    "verdict": "ok"
   },
   {
@@ -3217,7 +3131,7 @@
     "60187"
    ],
    "status": 200,
-   "elapsedMs": 133,
+   "elapsedMs": 96,
    "verdict": "ok"
   },
   {
@@ -3226,7 +3140,7 @@
     "60190"
    ],
    "status": 200,
-   "elapsedMs": 121,
+   "elapsedMs": 47,
    "verdict": "ok"
   },
   {
@@ -3235,9 +3149,8 @@
     "60191"
    ],
    "status": 200,
-   "elapsedMs": 125,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 295,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/60309O/3m-aqua-burnish-pad-3100-tech-data-sheet.pdf",
@@ -3245,9 +3158,8 @@
     "60309"
    ],
    "status": 200,
-   "elapsedMs": 135,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 188,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/611351O/3mtm-nomadtm-modular-matting-system-9200.pdf",
@@ -3255,7 +3167,7 @@
     "611351"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 595,
    "verdict": "ok"
   },
   {
@@ -3264,9 +3176,8 @@
     "65835"
    ],
    "status": 200,
-   "elapsedMs": 4138,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 413,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/660426O/scotch-brite-stainless-steel-scrubber-83-84-and-84cc-technical-data-sheet.pdf",
@@ -3274,9 +3185,8 @@
     "660426"
    ],
    "status": 200,
-   "elapsedMs": 130,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 412,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/67543O/19l-non-acid-bathroom-cleaner-concentrate-tech-data-sheet.pdf",
@@ -3284,7 +3194,7 @@
     "67543"
    ],
    "status": 200,
-   "elapsedMs": 167,
+   "elapsedMs": 76,
    "verdict": "ok"
   },
   {
@@ -3293,9 +3203,8 @@
     "67726"
    ],
    "status": 200,
-   "elapsedMs": 352,
-   "verdict": "ok",
-   "attempts": 3
+   "elapsedMs": 555,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/690272O/pb6900-3m-tm-luminous-film-6900.pdf",
@@ -3303,7 +3212,7 @@
     "690272"
    ],
    "status": 200,
-   "elapsedMs": 132,
+   "elapsedMs": 555,
    "verdict": "ok"
   },
   {
@@ -3312,7 +3221,7 @@
     "706037"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 79,
    "verdict": "ok"
   },
   {
@@ -3321,7 +3230,7 @@
     "7409"
    ],
    "status": 200,
-   "elapsedMs": 136,
+   "elapsedMs": 185,
    "verdict": "ok"
   },
   {
@@ -3330,9 +3239,8 @@
     "741502"
    ],
    "status": 200,
-   "elapsedMs": 128,
-   "verdict": "ok",
-   "attempts": 3
+   "elapsedMs": 789,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/741503O/3a-3h-3l-neutral-cleaner-concentrate-tech-data-sheet.pdf",
@@ -3340,9 +3248,8 @@
     "741503"
    ],
    "status": 200,
-   "elapsedMs": 132,
-   "verdict": "ok",
-   "attempts": 3
+   "elapsedMs": 52,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/758474O/scotch-brite-scotchbrick-griddle-scrubber-9537-technical-data-sheet.pdf",
@@ -3350,9 +3257,8 @@
     "758474"
    ],
    "status": 200,
-   "elapsedMs": 129,
-   "verdict": "ok",
-   "attempts": 3
+   "elapsedMs": 333,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/760379O",
@@ -3360,9 +3266,8 @@
     "760379"
    ],
    "status": 200,
-   "elapsedMs": 501,
-   "verdict": "ok",
-   "attempts": 3
+   "elapsedMs": 788,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/760380O",
@@ -3370,9 +3275,8 @@
     "760380"
    ],
    "status": 200,
-   "elapsedMs": 260,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 379,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/761124O/ij8150-scotchcal-clear-view-graphic-film-product-bulletin.pdf",
@@ -3380,7 +3284,7 @@
     "761124"
    ],
    "status": 200,
-   "elapsedMs": 3221,
+   "elapsedMs": 60,
    "verdict": "ok"
   },
   {
@@ -3389,7 +3293,7 @@
     "78145"
    ],
    "status": 200,
-   "elapsedMs": 125,
+   "elapsedMs": 54,
    "verdict": "ok"
   },
   {
@@ -3398,7 +3302,7 @@
     "783070"
    ],
    "status": 200,
-   "elapsedMs": 138,
+   "elapsedMs": 226,
    "verdict": "ok"
   },
   {
@@ -3407,7 +3311,7 @@
     "787228"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 60,
    "verdict": "ok"
   },
   {
@@ -3416,7 +3320,7 @@
     "787229"
    ],
    "status": 200,
-   "elapsedMs": 135,
+   "elapsedMs": 262,
    "verdict": "ok"
   },
   {
@@ -3425,7 +3329,7 @@
     "787230"
    ],
    "status": 200,
-   "elapsedMs": 125,
+   "elapsedMs": 144,
    "verdict": "ok"
   },
   {
@@ -3434,7 +3338,7 @@
     "790119"
    ],
    "status": 200,
-   "elapsedMs": 130,
+   "elapsedMs": 47,
    "verdict": "ok"
   },
   {
@@ -3443,9 +3347,8 @@
     "791963"
    ],
    "status": 200,
-   "elapsedMs": 130,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 316,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/79826O/16a-16l-sanitizer-concentrate-tech-data-sheet.pdf",
@@ -3453,9 +3356,8 @@
     "79826"
    ],
    "status": 200,
-   "elapsedMs": 129,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 341,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/799827O/3m-neutral-cleaner-concentrate-2-5-and-55-gallon-drum.pdf",
@@ -3463,7 +3365,7 @@
     "799827"
    ],
    "status": 200,
-   "elapsedMs": 2622,
+   "elapsedMs": 67,
    "verdict": "ok"
   },
   {
@@ -3472,7 +3374,7 @@
     "801225"
    ],
    "status": 200,
-   "elapsedMs": 1917,
+   "elapsedMs": 84,
    "verdict": "ok"
   },
   {
@@ -3481,7 +3383,7 @@
     "805406"
    ],
    "status": 200,
-   "elapsedMs": 137,
+   "elapsedMs": 820,
    "verdict": "ok"
   },
   {
@@ -3490,7 +3392,7 @@
     "807222"
    ],
    "status": 200,
-   "elapsedMs": 132,
+   "elapsedMs": 194,
    "verdict": "ok"
   },
   {
@@ -3499,7 +3401,7 @@
     "807223"
    ],
    "status": 200,
-   "elapsedMs": 127,
+   "elapsedMs": 86,
    "verdict": "ok"
   },
   {
@@ -3508,7 +3410,7 @@
     "813249"
    ],
    "status": 200,
-   "elapsedMs": 132,
+   "elapsedMs": 78,
    "verdict": "ok"
   },
   {
@@ -3517,7 +3419,7 @@
     "819443"
    ],
    "status": 200,
-   "elapsedMs": 129,
+   "elapsedMs": 469,
    "verdict": "ok"
   },
   {
@@ -3526,7 +3428,7 @@
     "8215"
    ],
    "status": 200,
-   "elapsedMs": 237,
+   "elapsedMs": 686,
    "verdict": "ok"
   },
   {
@@ -3535,7 +3437,7 @@
     "82218"
    ],
    "status": 200,
-   "elapsedMs": 122,
+   "elapsedMs": 180,
    "verdict": "ok"
   },
   {
@@ -3544,7 +3446,7 @@
     "82219"
    ],
    "status": 200,
-   "elapsedMs": 131,
+   "elapsedMs": 258,
    "verdict": "ok"
   },
   {
@@ -3553,9 +3455,8 @@
     "82220"
    ],
    "status": 200,
-   "elapsedMs": 119,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 292,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/823536O/3m-diffuser-film-3635-30-3635-70.pdf",
@@ -3563,7 +3464,7 @@
     "823536"
    ],
    "status": 200,
-   "elapsedMs": 128,
+   "elapsedMs": 388,
    "verdict": "ok"
   },
   {
@@ -3572,9 +3473,8 @@
     "824038"
    ],
    "status": 200,
-   "elapsedMs": 129,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 273,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/828093O/di-noc-wh-111-tds-ri-fm.pdf",
@@ -3582,7 +3482,7 @@
     "828093"
    ],
    "status": 200,
-   "elapsedMs": 133,
+   "elapsedMs": 43,
    "verdict": "ok"
   },
   {
@@ -3591,9 +3491,8 @@
     "828533"
    ],
    "status": 200,
-   "elapsedMs": 134,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 170,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/831599O/scotch-brite-scouring-pads-and-haccp-int-l-certification.pdf",
@@ -3601,7 +3500,7 @@
     "831599"
    ],
    "status": 200,
-   "elapsedMs": 119,
+   "elapsedMs": 249,
    "verdict": "ok"
   },
   {
@@ -3610,7 +3509,7 @@
     "834033"
    ],
    "status": 200,
-   "elapsedMs": 227,
+   "elapsedMs": 1069,
    "verdict": "ok"
   },
   {
@@ -3619,9 +3518,8 @@
     "851160"
    ],
    "status": 200,
-   "elapsedMs": 119,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 266,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/852939O/product-instruction-bulletin-792.pdf",
@@ -3629,9 +3527,8 @@
     "852939"
    ],
    "status": 200,
-   "elapsedMs": 132,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 55,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/855201O/20l-heavy-duty-glass-cleaner-concentrate-tech-data-sheet.pdf",
@@ -3639,9 +3536,8 @@
     "855201"
    ],
    "status": 200,
-   "elapsedMs": 130,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 261,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/861295O/3m-dichroic-df-tech-data-sheet.pdf",
@@ -3649,7 +3545,7 @@
     "861295"
    ],
    "status": 200,
-   "elapsedMs": 146,
+   "elapsedMs": 78,
    "verdict": "ok"
   },
   {
@@ -3658,9 +3554,8 @@
     "865452"
    ],
    "status": 200,
-   "elapsedMs": 133,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 951,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/865456O/3m-resilient-floor-protection-system-technical-bulletin.pdf",
@@ -3668,7 +3563,7 @@
     "865456"
    ],
    "status": 200,
-   "elapsedMs": 133,
+   "elapsedMs": 74,
    "verdict": "ok"
   },
   {
@@ -3677,7 +3572,7 @@
     "868871"
    ],
    "status": 200,
-   "elapsedMs": 132,
+   "elapsedMs": 798,
    "verdict": "ok"
   },
   {
@@ -3686,9 +3581,8 @@
     "873755"
    ],
    "status": 200,
-   "elapsedMs": 168,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 779,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/873756O",
@@ -3696,7 +3590,7 @@
     "873756"
    ],
    "status": 200,
-   "elapsedMs": 166,
+   "elapsedMs": 800,
    "verdict": "ok"
   },
   {
@@ -3705,7 +3599,7 @@
     "876646"
    ],
    "status": 200,
-   "elapsedMs": 285,
+   "elapsedMs": 89,
    "verdict": "ok"
   },
   {
@@ -3714,7 +3608,7 @@
     "876647"
    ],
    "status": 200,
-   "elapsedMs": 129,
+   "elapsedMs": 515,
    "verdict": "ok"
   },
   {
@@ -3723,7 +3617,7 @@
     "876650"
    ],
    "status": 200,
-   "elapsedMs": 132,
+   "elapsedMs": 110,
    "verdict": "ok"
   },
   {
@@ -3732,7 +3626,7 @@
     "876651"
    ],
    "status": 200,
-   "elapsedMs": 123,
+   "elapsedMs": 65,
    "verdict": "ok"
   },
   {
@@ -3741,7 +3635,7 @@
     "886395"
    ],
    "status": 200,
-   "elapsedMs": 159,
+   "elapsedMs": 48,
    "verdict": "ok"
   },
   {
@@ -3750,7 +3644,7 @@
     "886396"
    ],
    "status": 200,
-   "elapsedMs": 148,
+   "elapsedMs": 461,
    "verdict": "ok"
   },
   {
@@ -3759,7 +3653,7 @@
     "886397"
    ],
    "status": 200,
-   "elapsedMs": 146,
+   "elapsedMs": 346,
    "verdict": "ok"
   },
   {
@@ -3768,7 +3662,7 @@
     "891131"
    ],
    "status": 200,
-   "elapsedMs": 149,
+   "elapsedMs": 367,
    "verdict": "ok"
   },
   {
@@ -3777,9 +3671,8 @@
     "892170"
    ],
    "status": 200,
-   "elapsedMs": 162,
-   "verdict": "ok",
-   "attempts": 3
+   "elapsedMs": 631,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/892171O",
@@ -3787,9 +3680,8 @@
     "892171"
    ],
    "status": 200,
-   "elapsedMs": 163,
-   "verdict": "ok",
-   "attempts": 3
+   "elapsedMs": 480,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/892172O",
@@ -3797,9 +3689,8 @@
     "892172"
    ],
    "status": 200,
-   "elapsedMs": 277,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 578,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/8923O",
@@ -3807,9 +3698,8 @@
     "8923"
    ],
    "status": 200,
-   "elapsedMs": 269,
-   "verdict": "ok",
-   "attempts": 3
+   "elapsedMs": 350,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/8928O",
@@ -3817,9 +3707,8 @@
     "8928"
    ],
    "status": 200,
-   "elapsedMs": 170,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 657,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/8929O/3m-tm-scotchcal-tm-graphic-film-series-3690-3690lf-bulletin.pdf",
@@ -3827,7 +3716,7 @@
     "8929"
    ],
    "status": 200,
-   "elapsedMs": 148,
+   "elapsedMs": 67,
    "verdict": "ok"
   },
   {
@@ -3836,9 +3725,8 @@
     "903333"
    ],
    "status": 200,
-   "elapsedMs": 118,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 323,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/911770O/hp-881-latex-ink-a-3mtm-mcstm-warranty-component.pdf",
@@ -3846,7 +3734,7 @@
     "911770"
    ],
    "status": 200,
-   "elapsedMs": 193,
+   "elapsedMs": 61,
    "verdict": "ok"
   },
   {
@@ -3855,7 +3743,7 @@
     "922826"
    ],
    "status": 200,
-   "elapsedMs": 141,
+   "elapsedMs": 58,
    "verdict": "ok"
   },
   {
@@ -3864,7 +3752,7 @@
     "923657"
    ],
    "status": 200,
-   "elapsedMs": 135,
+   "elapsedMs": 364,
    "verdict": "ok"
   },
   {
@@ -3873,7 +3761,7 @@
     "925826"
    ],
    "status": 200,
-   "elapsedMs": 141,
+   "elapsedMs": 48,
    "verdict": "ok"
   },
   {
@@ -3882,7 +3770,7 @@
     "925848"
    ],
    "status": 200,
-   "elapsedMs": 276,
+   "elapsedMs": 510,
    "verdict": "ok"
   },
   {
@@ -3891,7 +3779,7 @@
     "9493"
    ],
    "status": 200,
-   "elapsedMs": 127,
+   "elapsedMs": 63,
    "verdict": "ok"
   },
   {
@@ -3900,7 +3788,7 @@
     "9502"
    ],
    "status": 200,
-   "elapsedMs": 121,
+   "elapsedMs": 954,
    "verdict": "ok"
   },
   {
@@ -3909,7 +3797,7 @@
     "958513"
    ],
    "status": 200,
-   "elapsedMs": 151,
+   "elapsedMs": 70,
    "verdict": "ok"
   },
   {
@@ -3918,9 +3806,8 @@
     "973582"
    ],
    "status": 200,
-   "elapsedMs": 130,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 416,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/982449O/3mtm-specular-film-df2000ma-technical-data-sheet.pdf",
@@ -3928,9 +3815,8 @@
     "982449"
    ],
    "status": 200,
-   "elapsedMs": 119,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 46,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/982818O/3m-sx-ink-series-from-oki.pdf",
@@ -3938,9 +3824,8 @@
     "982818"
    ],
    "status": 200,
-   "elapsedMs": 131,
-   "verdict": "ok",
-   "attempts": 2
+   "elapsedMs": 692,
+   "verdict": "ok"
   },
   {
    "url": "https://multimedia.3m.com/mws/media/989830O/fs-1-bulletin-rh-pdf.pdf",
@@ -3948,7 +3833,7 @@
     "989830"
    ],
    "status": 200,
-   "elapsedMs": 121,
+   "elapsedMs": 62,
    "verdict": "ok"
   },
   {
@@ -3957,7 +3842,7 @@
     "997054"
    ],
    "status": 200,
-   "elapsedMs": 128,
+   "elapsedMs": 476,
    "verdict": "ok"
   },
   {
@@ -3966,7 +3851,7 @@
     "2176409"
    ],
    "status": 200,
-   "elapsedMs": 27,
+   "elapsedMs": 50,
    "verdict": "ok"
   },
   {
@@ -3975,7 +3860,7 @@
     "2177099"
    ],
    "status": 200,
-   "elapsedMs": 27,
+   "elapsedMs": 49,
    "verdict": "ok"
   },
   {
@@ -3984,7 +3869,7 @@
     "2177267"
    ],
    "status": 200,
-   "elapsedMs": 79,
+   "elapsedMs": 41,
    "verdict": "ok"
   },
   {
@@ -3993,7 +3878,7 @@
     "2177301"
    ],
    "status": 200,
-   "elapsedMs": 40,
+   "elapsedMs": 66,
    "verdict": "ok"
   },
   {
@@ -4002,7 +3887,7 @@
     "2177310"
    ],
    "status": 200,
-   "elapsedMs": 37,
+   "elapsedMs": 55,
    "verdict": "ok"
   },
   {
@@ -4011,7 +3896,7 @@
     "2185718"
    ],
    "status": 200,
-   "elapsedMs": 97,
+   "elapsedMs": 61,
    "verdict": "ok"
   },
   {
@@ -4020,7 +3905,7 @@
     "2200923"
    ],
    "status": 200,
-   "elapsedMs": 30,
+   "elapsedMs": 43,
    "verdict": "ok"
   },
   {
@@ -4029,7 +3914,7 @@
     "2243799"
    ],
    "status": 200,
-   "elapsedMs": 79,
+   "elapsedMs": 47,
    "verdict": "ok"
   },
   {
@@ -4038,7 +3923,7 @@
     "1088301"
    ],
    "status": 200,
-   "elapsedMs": 162,
+   "elapsedMs": 227,
    "verdict": "ok"
   },
   {
@@ -4047,7 +3932,7 @@
     "1229683"
    ],
    "status": 200,
-   "elapsedMs": 72,
+   "elapsedMs": 38,
    "verdict": "ok"
   },
   {
@@ -4056,7 +3941,7 @@
     "1229684"
    ],
    "status": 200,
-   "elapsedMs": 46,
+   "elapsedMs": 28,
    "verdict": "ok"
   },
   {
@@ -4065,7 +3950,7 @@
     "1418093"
    ],
    "status": 200,
-   "elapsedMs": 34,
+   "elapsedMs": 29,
    "verdict": "ok"
   },
   {
@@ -4083,7 +3968,7 @@
     "1487133"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 51,
    "verdict": "ok"
   },
   {
@@ -4092,7 +3977,7 @@
     "1516047"
    ],
    "status": 200,
-   "elapsedMs": 80,
+   "elapsedMs": 26,
    "verdict": "ok"
   },
   {
@@ -4101,7 +3986,7 @@
     "1441215"
    ],
    "status": 200,
-   "elapsedMs": 28,
+   "elapsedMs": 29,
    "verdict": "ok"
   },
   {
@@ -4110,7 +3995,7 @@
     "1447713"
    ],
    "status": 200,
-   "elapsedMs": 25,
+   "elapsedMs": 36,
    "verdict": "ok"
   },
   {
@@ -4119,7 +4004,7 @@
     "1544948"
    ],
    "status": 200,
-   "elapsedMs": 74,
+   "elapsedMs": 26,
    "verdict": "ok"
   },
   {
@@ -4128,7 +4013,7 @@
     "1555413"
    ],
    "status": 200,
-   "elapsedMs": 28,
+   "elapsedMs": 31,
    "verdict": "ok"
   },
   {
@@ -4137,7 +4022,7 @@
     "1555415"
    ],
    "status": 200,
-   "elapsedMs": 27,
+   "elapsedMs": 31,
    "verdict": "ok"
   },
   {
@@ -4146,7 +4031,7 @@
     "1575321"
    ],
    "status": 200,
-   "elapsedMs": 29,
+   "elapsedMs": 38,
    "verdict": "ok"
   },
   {
@@ -4155,7 +4040,7 @@
     "1605601"
    ],
    "status": 200,
-   "elapsedMs": 25,
+   "elapsedMs": 34,
    "verdict": "ok"
   },
   {
@@ -4164,7 +4049,7 @@
     "1647147"
    ],
    "status": 200,
-   "elapsedMs": 89,
+   "elapsedMs": 41,
    "verdict": "ok"
   },
   {
@@ -4173,7 +4058,7 @@
     "1664388"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 27,
    "verdict": "ok"
   },
   {
@@ -4182,7 +4067,7 @@
     "1736581"
    ],
    "status": 200,
-   "elapsedMs": 27,
+   "elapsedMs": 30,
    "verdict": "ok"
   },
   {
@@ -4191,7 +4076,7 @@
     "1734640"
    ],
    "status": 200,
-   "elapsedMs": 35,
+   "elapsedMs": 25,
    "verdict": "ok"
   },
   {
@@ -4200,7 +4085,7 @@
     "1744757"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 33,
    "verdict": "ok"
   },
   {
@@ -4209,7 +4094,7 @@
     "1795072"
    ],
    "status": 200,
-   "elapsedMs": 79,
+   "elapsedMs": 25,
    "verdict": "ok"
   },
   {
@@ -4218,7 +4103,7 @@
     "1795073"
    ],
    "status": 200,
-   "elapsedMs": 27,
+   "elapsedMs": 26,
    "verdict": "ok"
   },
   {
@@ -4236,7 +4121,7 @@
     "1841301"
    ],
    "status": 200,
-   "elapsedMs": 24,
+   "elapsedMs": 26,
    "verdict": "ok"
   },
   {
@@ -4245,7 +4130,7 @@
     "1855317"
    ],
    "status": 200,
-   "elapsedMs": 95,
+   "elapsedMs": 56,
    "verdict": "ok"
   },
   {
@@ -4254,7 +4139,7 @@
     "1855314"
    ],
    "status": 200,
-   "elapsedMs": 37,
+   "elapsedMs": 36,
    "verdict": "ok"
   },
   {
@@ -4263,7 +4148,7 @@
     "1855318"
    ],
    "status": 200,
-   "elapsedMs": 32,
+   "elapsedMs": 56,
    "verdict": "ok"
   },
   {
@@ -4272,7 +4157,7 @@
     "1855321"
    ],
    "status": 200,
-   "elapsedMs": 85,
+   "elapsedMs": 63,
    "verdict": "ok"
   },
   {
@@ -4281,7 +4166,7 @@
     "1855315"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 54,
    "verdict": "ok"
   },
   {
@@ -4290,7 +4175,7 @@
     "1855320"
    ],
    "status": 200,
-   "elapsedMs": 97,
+   "elapsedMs": 63,
    "verdict": "ok"
   },
   {
@@ -4299,7 +4184,7 @@
     "1855316"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 64,
    "verdict": "ok"
   },
   {
@@ -4308,7 +4193,7 @@
     "1855319"
    ],
    "status": 200,
-   "elapsedMs": 39,
+   "elapsedMs": 51,
    "verdict": "ok"
   },
   {
@@ -4317,7 +4202,7 @@
     "1725255"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 32,
    "verdict": "ok"
   },
   {
@@ -4326,7 +4211,7 @@
     "1725256"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 33,
    "verdict": "ok"
   },
   {
@@ -4335,7 +4220,7 @@
     "1734599"
    ],
    "status": 200,
-   "elapsedMs": 79,
+   "elapsedMs": 27,
    "verdict": "ok"
   },
   {
@@ -4344,7 +4229,7 @@
     "1878832"
    ],
    "status": 200,
-   "elapsedMs": 79,
+   "elapsedMs": 94,
    "verdict": "ok"
   },
   {
@@ -4353,7 +4238,7 @@
     "1878834"
    ],
    "status": 200,
-   "elapsedMs": 27,
+   "elapsedMs": 94,
    "verdict": "ok"
   },
   {
@@ -4362,7 +4247,7 @@
     "1903471"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 41,
    "verdict": "ok"
   },
   {
@@ -4371,7 +4256,7 @@
     "1415970"
    ],
    "status": 200,
-   "elapsedMs": 34,
+   "elapsedMs": 28,
    "verdict": "ok"
   },
   {
@@ -4380,7 +4265,7 @@
     "1939090"
    ],
    "status": 200,
-   "elapsedMs": 79,
+   "elapsedMs": 51,
    "verdict": "ok"
   },
   {
@@ -4389,7 +4274,7 @@
     "1939091"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 47,
    "verdict": "ok"
   },
   {
@@ -4398,7 +4283,7 @@
     "1939088"
    ],
    "status": 200,
-   "elapsedMs": 74,
+   "elapsedMs": 32,
    "verdict": "ok"
   },
   {
@@ -4407,7 +4292,7 @@
     "1939087"
    ],
    "status": 200,
-   "elapsedMs": 25,
+   "elapsedMs": 38,
    "verdict": "ok"
   },
   {
@@ -4425,7 +4310,7 @@
     "1950379"
    ],
    "status": 200,
-   "elapsedMs": 35,
+   "elapsedMs": 34,
    "verdict": "ok"
   },
   {
@@ -4434,7 +4319,7 @@
     "1811445"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 31,
    "verdict": "ok"
   },
   {
@@ -4443,7 +4328,7 @@
     "1953979"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 36,
    "verdict": "ok"
   },
   {
@@ -4452,7 +4337,7 @@
     "2004719"
    ],
    "status": 200,
-   "elapsedMs": 25,
+   "elapsedMs": 48,
    "verdict": "ok"
   },
   {
@@ -4461,7 +4346,7 @@
     "2004720"
    ],
    "status": 200,
-   "elapsedMs": 25,
+   "elapsedMs": 47,
    "verdict": "ok"
   },
   {
@@ -4470,7 +4355,7 @@
     "1957862"
    ],
    "status": 200,
-   "elapsedMs": 33,
+   "elapsedMs": 25,
    "verdict": "ok"
   },
   {
@@ -4479,7 +4364,7 @@
     "1962639"
    ],
    "status": 200,
-   "elapsedMs": 71,
+   "elapsedMs": 36,
    "verdict": "ok"
   },
   {
@@ -4488,7 +4373,7 @@
     "1962640"
    ],
    "status": 200,
-   "elapsedMs": 29,
+   "elapsedMs": 36,
    "verdict": "ok"
   },
   {
@@ -4497,7 +4382,7 @@
     "1962643"
    ],
    "status": 200,
-   "elapsedMs": 27,
+   "elapsedMs": 47,
    "verdict": "ok"
   },
   {
@@ -4506,7 +4391,7 @@
     "1962645"
    ],
    "status": 200,
-   "elapsedMs": 94,
+   "elapsedMs": 48,
    "verdict": "ok"
   },
   {
@@ -4515,7 +4400,7 @@
     "1962646"
    ],
    "status": 200,
-   "elapsedMs": 33,
+   "elapsedMs": 39,
    "verdict": "ok"
   },
   {
@@ -4524,7 +4409,7 @@
     "2151276"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 36,
    "verdict": "ok"
   },
   {
@@ -4533,7 +4418,7 @@
     "2151260"
    ],
    "status": 200,
-   "elapsedMs": 25,
+   "elapsedMs": 51,
    "verdict": "ok"
   },
   {
@@ -4542,7 +4427,7 @@
     "2162981"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 48,
    "verdict": "ok"
   },
   {
@@ -4551,7 +4436,7 @@
     "2162965"
    ],
    "status": 200,
-   "elapsedMs": 24,
+   "elapsedMs": 48,
    "verdict": "ok"
   },
   {
@@ -4560,7 +4445,7 @@
     "2172080"
    ],
    "status": 200,
-   "elapsedMs": 101,
+   "elapsedMs": 51,
    "verdict": "ok"
   },
   {
@@ -4569,7 +4454,7 @@
     "2172088"
    ],
    "status": 200,
-   "elapsedMs": 27,
+   "elapsedMs": 49,
    "verdict": "ok"
   },
   {
@@ -4578,7 +4463,7 @@
     "2172856"
    ],
    "status": 200,
-   "elapsedMs": 25,
+   "elapsedMs": 52,
    "verdict": "ok"
   },
   {
@@ -4587,7 +4472,7 @@
     "2177321"
    ],
    "status": 200,
-   "elapsedMs": 90,
+   "elapsedMs": 202,
    "verdict": "ok"
   },
   {
@@ -4596,7 +4481,7 @@
     "2243926"
    ],
    "status": 200,
-   "elapsedMs": 31,
+   "elapsedMs": 109,
    "verdict": "ok"
   },
   {
@@ -4605,7 +4490,7 @@
     "2243928"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 102,
    "verdict": "ok"
   },
   {
@@ -4614,7 +4499,7 @@
     "2243931"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 102,
    "verdict": "ok"
   },
   {
@@ -4623,7 +4508,7 @@
     "2255649"
    ],
    "status": 200,
-   "elapsedMs": 137,
+   "elapsedMs": 67,
    "verdict": "ok"
   },
   {
@@ -4632,7 +4517,7 @@
     "2255654"
    ],
    "status": 200,
-   "elapsedMs": 85,
+   "elapsedMs": 87,
    "verdict": "ok"
   },
   {
@@ -4641,7 +4526,7 @@
     "2255670"
    ],
    "status": 200,
-   "elapsedMs": 28,
+   "elapsedMs": 84,
    "verdict": "ok"
   },
   {
@@ -4650,7 +4535,7 @@
     "2219188"
    ],
    "status": 200,
-   "elapsedMs": 31,
+   "elapsedMs": 156,
    "verdict": "ok"
   },
   {
@@ -4659,7 +4544,7 @@
     "2298707"
    ],
    "status": 200,
-   "elapsedMs": 27,
+   "elapsedMs": 61,
    "verdict": "ok"
   },
   {
@@ -4668,7 +4553,7 @@
     "2298971"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 63,
    "verdict": "ok"
   },
   {
@@ -4677,7 +4562,7 @@
     "2298976"
    ],
    "status": 200,
-   "elapsedMs": 25,
+   "elapsedMs": 51,
    "verdict": "ok"
   },
   {
@@ -4686,7 +4571,7 @@
     "2298981"
    ],
    "status": 200,
-   "elapsedMs": 27,
+   "elapsedMs": 56,
    "verdict": "ok"
   },
   {
@@ -4695,7 +4580,7 @@
     "2299027"
    ],
    "status": 200,
-   "elapsedMs": 85,
+   "elapsedMs": 59,
    "verdict": "ok"
   },
   {
@@ -4704,7 +4589,7 @@
     "2299032"
    ],
    "status": 200,
-   "elapsedMs": 82,
+   "elapsedMs": 70,
    "verdict": "ok"
   },
   {
@@ -4713,7 +4598,7 @@
     "2388939"
    ],
    "status": 200,
-   "elapsedMs": 35,
+   "elapsedMs": 26,
    "verdict": "ok"
   },
   {
@@ -4722,7 +4607,7 @@
     "2396889"
    ],
    "status": 200,
-   "elapsedMs": 29,
+   "elapsedMs": 34,
    "verdict": "ok"
   },
   {
@@ -4731,7 +4616,7 @@
     "2396984"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 29,
    "verdict": "ok"
   },
   {
@@ -4740,7 +4625,7 @@
     "2391510"
    ],
    "status": 200,
-   "elapsedMs": 34,
+   "elapsedMs": 26,
    "verdict": "ok"
   },
   {
@@ -4749,7 +4634,7 @@
     "2419242"
    ],
    "status": 200,
-   "elapsedMs": 31,
+   "elapsedMs": 35,
    "verdict": "ok"
   },
   {
@@ -4758,7 +4643,7 @@
     "2419244"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 33,
    "verdict": "ok"
   },
   {
@@ -4767,7 +4652,7 @@
     "2419269"
    ],
    "status": 200,
-   "elapsedMs": 25,
+   "elapsedMs": 47,
    "verdict": "ok"
   },
   {
@@ -4776,7 +4661,7 @@
     "2419331"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 41,
    "verdict": "ok"
   },
   {
@@ -4785,7 +4670,7 @@
     "2419329"
    ],
    "status": 200,
-   "elapsedMs": 25,
+   "elapsedMs": 46,
    "verdict": "ok"
   },
   {
@@ -4794,7 +4679,7 @@
     "2419338"
    ],
    "status": 200,
-   "elapsedMs": 27,
+   "elapsedMs": 47,
    "verdict": "ok"
   },
   {
@@ -4803,7 +4688,7 @@
     "2419352"
    ],
    "status": 200,
-   "elapsedMs": 98,
+   "elapsedMs": 52,
    "verdict": "ok"
   },
   {
@@ -4812,7 +4697,7 @@
     "2419348"
    ],
    "status": 200,
-   "elapsedMs": 72,
+   "elapsedMs": 55,
    "verdict": "ok"
   },
   {
@@ -4821,7 +4706,7 @@
     "2419476"
    ],
    "status": 200,
-   "elapsedMs": 26,
+   "elapsedMs": 51,
    "verdict": "ok"
   },
   {
@@ -4830,7 +4715,7 @@
     "2419479"
    ],
    "status": 200,
-   "elapsedMs": 34,
+   "elapsedMs": 57,
    "verdict": "ok"
   },
   {
@@ -4839,7 +4724,7 @@
     "2419482"
    ],
    "status": 200,
-   "elapsedMs": 30,
+   "elapsedMs": 64,
    "verdict": "ok"
   },
   {
@@ -4848,7 +4733,7 @@
     "2423720"
    ],
    "status": 200,
-   "elapsedMs": 25,
+   "elapsedMs": 55,
    "verdict": "ok"
   },
   {
@@ -4857,7 +4742,7 @@
     "2424552"
    ],
    "status": 200,
-   "elapsedMs": 28,
+   "elapsedMs": 67,
    "verdict": "ok"
   },
   {
@@ -4866,7 +4751,7 @@
     "2429411"
    ],
    "status": 200,
-   "elapsedMs": 45,
+   "elapsedMs": 90,
    "verdict": "ok"
   },
   {
@@ -4875,7 +4760,7 @@
     "2429961"
    ],
    "status": 200,
-   "elapsedMs": 28,
+   "elapsedMs": 81,
    "verdict": "ok"
   },
   {
@@ -4884,7 +4769,7 @@
     "2522666"
    ],
    "status": 200,
-   "elapsedMs": 28,
+   "elapsedMs": 86,
    "verdict": "ok"
   },
   {
@@ -4893,7 +4778,7 @@
     "2522667"
    ],
    "status": 200,
-   "elapsedMs": 143,
+   "elapsedMs": 81,
    "verdict": "ok"
   },
   {
@@ -4902,7 +4787,7 @@
     "2522668"
    ],
    "status": 200,
-   "elapsedMs": 37,
+   "elapsedMs": 114,
    "verdict": "ok"
   },
   {
@@ -4911,7 +4796,7 @@
     "2525228"
    ],
    "status": 200,
-   "elapsedMs": 27,
+   "elapsedMs": 117,
    "verdict": "ok"
   },
   {
@@ -4920,7 +4805,7 @@
     "2525227"
    ],
    "status": 200,
-   "elapsedMs": 34,
+   "elapsedMs": 155,
    "verdict": "ok"
   },
   {
@@ -4929,7 +4814,7 @@
     "2528457"
    ],
    "status": 200,
-   "elapsedMs": 29,
+   "elapsedMs": 133,
    "verdict": "ok"
   },
   {
@@ -4938,7 +4823,7 @@
     "2530526"
    ],
    "status": 200,
-   "elapsedMs": 95,
+   "elapsedMs": 122,
    "verdict": "ok"
   },
   {
@@ -4947,7 +4832,7 @@
     "2593860"
    ],
    "status": 200,
-   "elapsedMs": 25,
+   "elapsedMs": 31,
    "verdict": "ok"
   },
   {
@@ -4956,7 +4841,7 @@
     "2804306"
    ],
    "status": 200,
-   "elapsedMs": 27,
+   "elapsedMs": 53,
    "verdict": "ok"
   },
   {
@@ -4965,7 +4850,7 @@
     "2804304"
    ],
    "status": 200,
-   "elapsedMs": 82,
+   "elapsedMs": 47,
    "verdict": "ok"
   },
   {
@@ -4974,7 +4859,7 @@
     "2804303"
    ],
    "status": 200,
-   "elapsedMs": 91,
+   "elapsedMs": 30,
    "verdict": "ok"
   }
  ],
