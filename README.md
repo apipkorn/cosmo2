@@ -1,82 +1,102 @@
-# CSD US Content Hub
+# CSD Content Hub
 
-A modern, responsive web app for browsing and delivering CSD US sales and
-marketing assets. The catalog is generated from two source spreadsheets:
+A phone, tablet and web app for browsing 3M Commercial Solutions literature and
+videos. It is a separate project from the existing 3M™ COSMO app; "CSD Content
+Hub" is a working name (see [Renaming](#renaming)).
 
-- **CSD US template** — defines the folder hierarchy (LEVEL 0–7 columns) and
-  the asset IDs published in each folder.
-- **Adobe Assets Metadata** — provides, per Celum Asset ID, the title,
-  description, download URL, content type, file size and literature number.
-  The asset ID embedded in each `multimedia.3m.com/mws/media/<ID>O/…` URL is
-  the join key between the two files.
+All content comes from two spreadsheets in this repository. Change a
+spreadsheet, and the app picks up the change the next time it opens. No app
+release is needed and there is no server to look after.
 
-The app is a dependency-free static site (plain HTML/CSS/JS) — host it on any
-static web server (GitHub Pages, S3, IIS, nginx…) or open `index.html`
-directly in a browser.
-
-## Running locally
-
-```bash
-cd content-delivery-app
-python3 -m http.server 8080
-# open http://localhost:8080
+```
+content/   the two spreadsheets you edit
+tools/     turns the spreadsheets into catalog.json, and checks them
+app/       the app itself (Expo / React Native, TypeScript)
+thumbs/    preview images, named <asset ID>.jpg
 ```
 
-## Features
+## Changing content
 
-**Content browser**
-- Collapsible folder tree with per-folder asset counts, breadcrumbs and
-  subfolder cards
-- Live global search across titles, descriptions, asset IDs and literature
-  numbers (press `/` to focus the search box)
-- File-type filter chips (PDF / Video / Image / Document / Archive), type
-  icons, file sizes and literature numbers on each asset card
-- Open-in-new-tab and copy-link actions per asset
-- Fully responsive (drawer navigation on mobile) with light and dark themes
+Edit the files in `content/` and commit the change to `main`.
 
-**Admin dashboard** (`#/admin`)
-- Password-protected sign-in — the default password is `admin123`;
-  change it from the dashboard (**Change password**)
-- Add new assets: paste a URL (the asset ID is auto-detected from it), enter
-  the title, optional description, and pick the destination folder
-- Edit titles/descriptions of any asset; remove assets (with restore) —
-  removed assets disappear from the public browser immediately
-- Filterable, paginated management table with live/added/removed status
-- **Export catalog** downloads the merged catalog (base data + admin changes)
-  as JSON
-- **Link check**: probes every published asset link with a 5-second budget
-  from the admin's browser, and can also load the server-side report
-  (`reports/link-report.json`, produced by the *Check asset links* GitHub
-  Action, which additionally sees HTTP status codes). Failing assets can be
-  removed one by one or all at once
+**`content/assets.csv`** has one row per PDF, video or other item.
 
-## How data and changes are stored
+| Column | Notes |
+|---|---|
+| ID | Required and unique. The Celum asset ID. |
+| Title | Required. |
+| Description | Optional. Searchable. |
+| Type | `PDF`, `Video`, `Image`, `Presentation`, `Document`, `Archive` or `Link`. Guessed from the URL if blank. |
+| URL | Required, must start with `https://`. For videos, the player link. |
+| Folders | Where it appears. Levels are separated by ` > `, and several folders by `;`. Example: `Products > Films; Training` |
+| Literature Number, Size (bytes), Created | Optional details shown on the item's page. |
+| YouTube ID | Optional. Gives a video a preview image. |
+| Status | `live` (default) or `hidden`. Hidden rows stay in the spreadsheet but not in the app. |
+| Notes | For you. Never shown in the app. |
 
-- `js/data.js` holds the base catalog generated from the spreadsheets.
-- Admin changes (additions, edits, removals, password) are stored as an
-  overlay in the browser's `localStorage`, so the generated file is never
-  mutated. Use **Export catalog** to capture the merged state.
+**`content/folders.csv`** lists the folders in the order they should appear,
+with an optional description. A folder used in `assets.csv` but missing here is
+added at the end. Folders with nothing in them are not shown.
 
-> **Note:** this is a static app, so admin authentication and persistence are
-> browser-local (demo-grade). Changes made by an admin are visible in that
-> browser only until the exported catalog is republished. For multi-user
-> persistence and real access control, put the exported JSON behind a small
-> API or rebuild `js/data.js` from updated spreadsheets.
+In Excel, save as **CSV UTF-8 (Comma delimited)**. Plain "CSV" turns ™ and ®
+into question marks.
 
-## PDF thumbnails
-
-`scripts/make_thumbs.py` downloads each PDF asset and renders its first page
-to `thumbs/<asset id>.jpg` plus a `thumbs/manifest.json` the app reads (the
-*Generate PDF thumbnails* GitHub Action runs it automatically). Image assets
-and YouTube-mirrored videos get thumbnails directly from their sources.
-
-## Regenerating the catalog from new spreadsheets
+To check your edits before committing:
 
 ```bash
-pip install openpyxl
-python3 scripts/build_data.py "CSD US template.xlsx" "Adobe Assets Metadata.xlsx"
+python3 tools/build_catalog.py --check
 ```
 
-This rewrites `js/data.js` (134 folders / 711 assets as of the July 2026
-source files). The script warns about any asset IDs referenced by the
-template that have no metadata row.
+An `ERROR` (duplicate ID, missing title, bad URL) stops publishing until it is
+fixed. A `warning` (a title that looks like a file name, `(TM)` instead of ™)
+is only a suggestion.
+
+### Preview images
+
+PDFs show `thumbs/<ID>.jpg` if that file exists, otherwise an icon. To give a
+new PDF a preview, save a JPEG of its first page under that name. This is a
+manual step because 3M's file server refuses downloads from automated servers.
+
+### Hidden assets
+
+171 rows are marked `hidden`. An earlier automated link check removed them in
+July 2026 for responding slowly, and they have not been re-checked. Set
+`Status` to `live` to bring one back.
+
+## Publishing
+
+Every push to `main` runs `.github/workflows/site.yml`, which checks the
+spreadsheets and the code, builds the web version and `catalog.json`, and
+publishes them to the `gh-pages` branch (served by GitHub Pages).
+
+The phone apps start from a catalog bundled inside them, then download the
+published one, so they also work offline.
+
+## Working on the app
+
+```bash
+cd app
+npm install
+npm run web         # run in a browser
+npm run typecheck
+npm test
+```
+
+After editing a spreadsheet, run `python3 tools/build_catalog.py` to refresh
+the catalog bundled in the app (`app/assets/catalog.json`).
+
+iPhone and Android builds are not set up yet. They need Expo's build service
+(EAS) and Apple and Google developer accounts.
+
+## Renaming
+
+Change the name in three places: `APP_NAME` in `app/src/lib/config.ts`;
+`name`, `slug` and `scheme` in `app/app.json`; and the title of this file.
+
+If the website address changes, update `CONTENT_BASE_URL` in
+`app/src/lib/config.ts` and `experiments.baseUrl` in `app/app.json`.
+
+## Not included yet
+
+- COSMO Pro (PIN-gated premium content).
+- App Store and Google Play builds.
