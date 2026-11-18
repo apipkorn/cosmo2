@@ -1,31 +1,25 @@
-import { useColorScheme } from 'react-native';
-
-const light = {
-  bg: '#F4F5F7',
-  card: '#FFFFFF',
-  text: '#14181F',
-  muted: '#5B6472',
-  border: '#E1E4E9',
-  accent: '#0F766E',
-  onAccent: '#FFFFFF',
-  chip: '#E6EAEE',
-  star: '#D97706',
+// Colours and sizes, matching the 3M CBTD Technical Document Library page.
+export const colors = {
+  red: '#FF0000',
+  redDark: '#C00000',
+  black: '#0B0B0C',
+  ink: '#1A1A1B',
+  paper: '#FFFFFF',
+  grey: '#F4F4F5',
+  line: '#E2E2E4',
+  muted: '#5C5C61',
+  heroText: '#FFE3E3',
+  sideLine: '#2A2A2E',
+  sideHover: '#1C1C20',
+  sideText: '#E8E8EA',
+  sideMuted: '#A9A9B0',
+  pill: '#2A2A2E',
+  pillText: '#C9C9CF',
 };
 
-const dark: typeof light = {
-  bg: '#0E1116',
-  card: '#181C23',
-  text: '#F1F3F5',
-  muted: '#9BA3AF',
-  border: '#2A303A',
-  accent: '#2DD4BF',
-  onAccent: '#06241F',
-  chip: '#232933',
-  star: '#FBBF24',
-};
+/** Below this width the sidebar becomes a drawer opened from the top bar. */
+export const WIDE = 880;
+export const SIDEBAR_WIDTH = 300;
 
-export type Theme = typeof light;
-
-export function useTheme(): Theme {
-  return useColorScheme() === 'dark' ? dark : light;
-}
+/** Pressable state. `hovered` is set on the web only; React Native's types omit it. */
+export type Hover = { pressed: boolean; hovered?: boolean };

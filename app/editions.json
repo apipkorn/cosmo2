@@ -1,0 +1,20 @@
+{
+  "graphics": {
+    "name": "Commercial & Graphics Content Hub",
+    "slug": "commercial-graphics-content-hub",
+    "scheme": "cgcontenthub",
+    "webPath": "",
+    "tagline": "Commercial Solutions & Graphics documents and videos",
+    "heroText": "{count} product bulletins, instruction bulletins, data sheets, sales literature and videos for 3M Commercial Solutions and Graphics. Every title opens the official file on 3M’s servers.",
+    "searchExample": "2080, DI-NOC, floor pad"
+  },
+  "transportation": {
+    "name": "Transportation Safety Content Hub",
+    "slug": "transportation-safety-content-hub",
+    "scheme": "tscontenthub",
+    "webPath": "transportation",
+    "tagline": "Traffic signs, pavement markings, conspicuity & license plates",
+    "heroText": "{count} product bulletins, information folders, specifications and MCS™ warranty matrices for 3M Transportation Safety. Every title opens the official file on 3M’s servers.",
+    "searchExample": "4000, Stamark, MCS"
+  }
+}

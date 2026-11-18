@@ -8,22 +8,16 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import { Platform } from 'react-native';
 
-import bundled from '../../assets/catalog.json';
+import bundled from 'bundled-catalog';
 import { buildIndex, isCatalog, type Catalog, type Index } from './catalog';
-import { CONTENT_BASE_URL } from './config';
+import { CONTENT_BASE_URL, EDITION } from './config';
 
-const CATALOG_KEY = 'catalog.v1';
-const FAVORITES_KEY = 'favorites.v1';
+const CATALOG_KEY = `catalog.v1.${EDITION}`;
+const FAVORITES_KEY = `favorites.v1.${EDITION}`;
 
 /** Base address for catalog.json and thumbnails. */
 export const contentBase =
   Platform.OS === 'web' ? `${process.env.EXPO_BASE_URL ?? ''}/` : CONTENT_BASE_URL;
-
-/** Thumbnails are stored as a relative path or a full web address. */
-export function thumbUrl(thumb?: string): string | undefined {
-  if (!thumb) return undefined;
-  return thumb.startsWith('http') ? thumb : contentBase + thumb;
-}
 
 type Store = {
   index: Index;
