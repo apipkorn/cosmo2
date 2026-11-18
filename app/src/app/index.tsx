@@ -23,7 +23,7 @@ import { DocRow } from '../components/DocRow';
 import { Sidebar } from '../components/Sidebar';
 import { shareAsset } from '../lib/actions';
 import { buildLibrary, search, type Asset, type Sort } from '../lib/catalog';
-import { APP_NAME, FOOTER_TEXT, HERO_TEXT } from '../lib/config';
+import { APP_NAME, FOOTER_TEXT, HERO_TEXT, SEARCH_EXAMPLE } from '../lib/config';
 import { useStore } from '../lib/store';
 import { colors, SIDEBAR_WIDTH, WIDE } from '../lib/theme';
 
@@ -69,6 +69,8 @@ export default function Library() {
   const heroHeight = useRef(0);
   const offsets = useRef(new Map<string, number>());
   const pending = useRef<string | null>(null);
+  /** The category last picked from the sidebar or the address. */
+  const chosen = useRef<string | null>(null);
   const order = useMemo(() => parts.flatMap((p) => p.categories.map((c) => c.id)), [parts]);
 
   const scrollTo = useCallback((id: string) => {
@@ -83,6 +85,7 @@ export default function Library() {
     (id: string) => {
       setNavOpen(false);
       setActive(id);
+      chosen.current = id;
       if (web) window.history.replaceState(null, '', `#${id}`);
       // A search or the saved filter may hide the category: clear them first.
       if (filtering) {
@@ -103,6 +106,7 @@ export default function Library() {
       requestAnimationFrame(() => {
         if (pending.current === id && scrollTo(id)) {
           pending.current = null;
+          chosen.current = id;
           setActive(id);
         }
       });
@@ -115,13 +119,18 @@ export default function Library() {
   }, []);
 
   const onScroll = (e: NativeSyntheticEvent<NativeScrollEvent>) => {
-    const y = e.nativeEvent.contentOffset.y;
+    const { contentOffset, contentSize, layoutMeasurement } = e.nativeEvent;
+    const y = contentOffset.y;
     setShowTop(y > 600);
     let current: string | null = null;
     for (const id of order) {
       const top = offsets.current.get(id);
       if (top !== undefined && heroHeight.current + top - 20 <= y) current = id;
     }
+    // At the very bottom the last categories can't reach the top; show the one chosen.
+    const atBottom = y + layoutMeasurement.height >= contentSize.height - 4;
+    const chosenId = chosen.current;
+    if (atBottom && chosenId && order.indexOf(chosenId) > order.indexOf(current ?? '')) current = chosenId;
     if (current !== active) setActive(current);
   };
 
@@ -189,7 +198,7 @@ export default function Library() {
               <TextInput
                 value={query}
                 onChangeText={setQuery}
-                placeholder={`Search ${total} items… (e.g. 2080, DI-NOC, floor pad)`}
+                placeholder={`Search ${total} items… (e.g. ${SEARCH_EXAMPLE})`}
                 placeholderTextColor={colors.muted}
                 style={styles.input}
                 autoCorrect={false}

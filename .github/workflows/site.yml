@@ -1,8 +1,10 @@
 name: Check and publish
 
 # Every push and pull request: check the spreadsheets and the app code.
-# Pushes to main also rebuild the website and catalog and publish them to the
-# gh-pages branch, which GitHub Pages serves.
+# Pushes to main also rebuild both editions' websites and catalogs and publish
+# them to the gh-pages branch, which GitHub Pages serves:
+#   /cosmo2/                 Commercial & Graphics Content Hub
+#   /cosmo2/transportation/  Transportation Safety Content Hub
 
 on:
   push:
@@ -33,12 +35,16 @@ jobs:
           npm ci
           npm run typecheck
           npm test
-      - name: Build the website
+      - name: Build the websites
         working-directory: app
-        run: npm run build:web
+        run: |
+          npm run build:web
+          npm run build:web:transportation
       - name: Assemble the site
         run: |
           cp -r app/dist/. site/
+          mkdir -p site/transportation
+          cp -r app/dist-transportation/. site/transportation/
           cp -r thumbs site/thumbs
           cp site/index.html site/404.html   # lets deep links load the app
           touch site/.nojekyll               # Pages must serve the _expo folder

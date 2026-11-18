@@ -2,7 +2,8 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 
-import bundled from '../../assets/catalog.json';
+import graphics from '../../assets/catalogs/graphics.json';
+import transportation from '../../assets/catalogs/transportation.json';
 import {
   badge,
   buildIndex,
@@ -62,15 +63,16 @@ test('isCatalog rejects bad downloads', () => {
   assert.equal(isCatalog(null), false);
 });
 
-test('the bundled catalog is valid and every folder reference resolves', () => {
-  assert.equal(isCatalog(bundled), true);
-  const real = buildIndex(bundled as Catalog);
-  for (const f of real.folders.values()) {
-    for (const id of f.assetIds) assert.ok(real.assets.has(id), `${f.id} -> ${id}`);
-  }
-  assert.ok(search(real, 'wrap film').length > 0);
-});
-
+for (const [name, bundled] of Object.entries({ graphics, transportation })) {
+  test(`the ${name} catalog is valid and every folder reference resolves`, () => {
+    assert.equal(isCatalog(bundled), true);
+    const real = buildIndex(bundled as Catalog);
+    for (const f of real.folders.values()) {
+      for (const id of f.assetIds) assert.ok(real.assets.has(id), `${f.id} -> ${id}`);
+    }
+    assert.ok(buildLibrary(real, () => true, 'new').length > 0);
+  });
+}
 test('library groups parts > categories > subfolders and sorts', () => {
   const parts = buildLibrary(index, () => true, 'new');
   assert.deepEqual(parts.map((p) => p.name), ['Films', 'Cleaning']);
@@ -93,3 +95,4 @@ test('dates and badges', () => {
   assert.deepEqual(badge(sample.assets[1]), { text: 'Video', style: 'black' });
   assert.deepEqual(badge(sample.assets[2]), { text: '3M Warranty', style: 'outline' });
 });
+

@@ -1,7 +1,5 @@
 {
   "expo": {
-    "name": "CSD Content Hub",
-    "slug": "csd-content-hub",
     "version": "1.0.0",
     "orientation": "default",
     "icon": "./assets/icon.png",
@@ -23,13 +21,11 @@
       "bundler": "metro",
       "output": "single"
     },
-    "scheme": "csdcontenthub",
     "plugins": [
       "expo-router"
     ],
     "experiments": {
-      "typedRoutes": true,
-      "baseUrl": "/cosmo2"
+      "typedRoutes": true
     },
     "backgroundColor": "#FFFFFF"
   }

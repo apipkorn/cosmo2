@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from build_catalog import ROOT, build
+from build_catalog import ROOT, build, editions
 
 ASSET_HEAD = ("ID,Title,Description,Type,Document Type,URL,Folders,Literature Number,"
               "Size (bytes),Created,YouTube ID,Status,Notes\n")
@@ -79,11 +79,14 @@ class BuildCatalogTests(unittest.TestCase):
         self.assertEqual(run(row)[0]["version"], run(row)[0]["version"])
         self.assertNotEqual(run(row)[0]["version"], run(row.replace(",A,", ",B,"))[0]["version"])
 
-    def test_the_real_spreadsheets_have_no_errors(self):
-        _, errors, _, stats = build(
-            ROOT / "content" / "assets.csv", ROOT / "content" / "folders.csv", ROOT / "thumbs")
-        self.assertEqual(errors, [])
-        self.assertGreater(stats["assets"], 0)
+    def test_every_edition_has_spreadsheets_without_errors(self):
+        for name in editions():
+            with self.subTest(edition=name):
+                content = ROOT / "content" / name
+                _, errors, _, stats = build(
+                    content / "assets.csv", content / "folders.csv", ROOT / "thumbs")
+                self.assertEqual(errors, [])
+                self.assertGreater(stats["assets"], 0)
 
 
 if __name__ == "__main__":

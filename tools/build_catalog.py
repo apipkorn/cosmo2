@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
-"""Turn the content spreadsheets into the catalog the app reads.
+"""Turn the content spreadsheets into the catalogs the apps read.
 
-    python3 tools/build_catalog.py            # check + write the catalog
-    python3 tools/build_catalog.py --check    # check only, write nothing
+    python3 tools/build_catalog.py                  # check + write every edition
+    python3 tools/build_catalog.py --check          # check only, write nothing
+    python3 tools/build_catalog.py -e transportation   # one edition only
 
-Inputs   content/assets.csv   one row per asset
-         content/folders.csv  one row per folder, in display order
-Outputs  app/assets/catalog.json   snapshot bundled inside the app
-         <--out>/catalog.json      copy published to the website (optional)
+Each edition listed in app/editions.json has its own folder of spreadsheets:
+
+Inputs   content/<edition>/assets.csv   one row per asset
+         content/<edition>/folders.csv  one row per folder, in display order
+Outputs  app/assets/catalogs/<edition>.json   snapshot bundled inside the app
+         <--out>/<webPath>/catalog.json       copy published to the website (optional)
 
 Problems that would break the app stop the build ("ERROR"). Things that only
 look wrong are listed as "warning" and the build carries on. Uses only the
@@ -178,35 +181,51 @@ def build(assets_csv, folders_csv, thumbs_dir):
     return catalog, errors, warnings, stats
 
 
+def editions():
+    """Edition name -> settings, from app/editions.json."""
+    return json.loads((ROOT / "app" / "editions.json").read_text(encoding="utf-8"))
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--check", action="store_true", help="check only, write nothing")
-    ap.add_argument("--out", type=Path, help="also write catalog.json into this folder")
-    ap.add_argument("--content", type=Path, default=ROOT / "content")
+    ap.add_argument("--out", type=Path, help="also write each catalog.json under this folder")
+    ap.add_argument("-e", "--edition", action="append", help="only this edition (repeatable)")
     args = ap.parse_args()
 
-    catalog, errors, warnings, stats = build(
-        args.content / "assets.csv", args.content / "folders.csv", ROOT / "thumbs")
+    known = editions()
+    chosen = args.edition or list(known)
+    unknown = [e for e in chosen if e not in known]
+    if unknown:
+        sys.exit(f"Unknown edition {unknown}; app/editions.json has {list(known)}")
 
-    for w in warnings:
-        print("warning:", w)
-    for e in errors:
-        print("ERROR:", e)
-    print(f"\n{stats['assets']} live assets, {stats['hidden']} hidden, "
-          f"{stats['folders']} folders, {len(warnings)} warnings, {len(errors)} errors")
-    if errors:
+    failed = False
+    for name in chosen:
+        content = ROOT / "content" / name
+        print(f"== {name} ({known[name]['name']})")
+        catalog, errors, warnings, stats = build(
+            content / "assets.csv", content / "folders.csv", ROOT / "thumbs")
+        for w in warnings:
+            print("warning:", w)
+        for e in errors:
+            print("ERROR:", e)
+        print(f"{stats['assets']} live assets, {stats['hidden']} hidden, "
+              f"{stats['folders']} folders, {len(warnings)} warnings, {len(errors)} errors\n")
+        if errors:
+            failed = True
+            continue
+        if args.check:
+            continue
+        text = json.dumps(catalog, ensure_ascii=False, separators=(",", ":"))
+        targets = [ROOT / "app" / "assets" / "catalogs" / f"{name}.json"]
+        if args.out:
+            targets.append(args.out / known[name]["webPath"] / "catalog.json")
+        for target in targets:
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_text(text + "\n", encoding="utf-8")
+            print("wrote", target)
+    if failed:
         sys.exit(1)
-    if args.check:
-        return
-
-    text = json.dumps(catalog, ensure_ascii=False, separators=(",", ":"))
-    targets = [ROOT / "app" / "assets" / "catalog.json"]
-    if args.out:
-        targets.append(args.out / "catalog.json")
-    for target in targets:
-        target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(text + "\n", encoding="utf-8")
-        print("wrote", target)
 
 
 if __name__ == "__main__":
