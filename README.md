@@ -79,15 +79,18 @@ as they are in the CBTD Technical Document Library.
 ### Where the content came from
 
 - **Graphics:** the CSD US spreadsheets from the earlier version of this
-  project. Dates are when each item was first added.
+  project, plus 30 Graphics & Signage documents added in November 2026 from
+  the CBTD Technical Document Library (their Notes say so). Dates are when each
+  item was first added, except for those 30, where it is the file's last update.
 - **Transportation:** the Transportation Safety part of the CBTD Technical
   Document Library (June 2026). Dates are when 3M last updated each file.
 
 ### Hidden assets
 
-171 graphics rows are marked `hidden`. An earlier automated link check removed them in
-July 2026 for responding slowly, and they have not been re-checked. Set
-`Status` to `live` to bring one back.
+157 graphics rows are marked `hidden`. An earlier automated link check removed
+them in July 2026 for responding slowly, and they have not been re-checked.
+Set `Status` to `live` to bring one back. (14 others were brought back in
+November 2026 because the CBTD Technical Document Library lists them as current.)
 
 ## Publishing
 
