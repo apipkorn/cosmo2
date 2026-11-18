@@ -3,7 +3,18 @@ import assert from 'node:assert/strict';
 import { test } from 'node:test';
 
 import bundled from '../../assets/catalog.json';
-import { buildIndex, folderPath, formatSize, isCatalog, search, type Catalog } from './catalog';
+import {
+  badge,
+  buildIndex,
+  buildLibrary,
+  dateLabel,
+  folderPath,
+  formatSize,
+  isCatalog,
+  isRecent,
+  search,
+  type Catalog,
+} from './catalog';
 
 const sample: Catalog = {
   version: 't1',
@@ -15,9 +26,9 @@ const sample: Catalog = {
     { id: 'films-empty', name: 'Also empty', parent: 'films', description: '', assetIds: ['missing'] },
   ],
   assets: [
-    { id: '1', title: 'Wrap Film 1080 Bulletin', kind: 'pdf', url: 'https://x.test/1.pdf' },
-    { id: '2', title: 'Bubble Removal', kind: 'video', url: 'https://x.test/2', description: 'Using wrap film series 1080' },
-    { id: '3', title: 'Floor Pad', kind: 'pdf', url: 'https://x.test/3.pdf', lit: '75-3470' },
+    { id: '1', title: 'Wrap Film 1080 Bulletin', kind: 'pdf', url: 'https://x.test/1.pdf', created: '2024-05-01', docType: 'Instruction Bulletin' },
+    { id: '2', title: 'Bubble Removal', kind: 'video', url: 'https://x.test/2', description: 'Using wrap film series 1080', created: '2025-01-01' },
+    { id: '3', title: 'Floor Pad', kind: 'pdf', url: 'https://x.test/3.pdf', lit: '75-3470', docType: '3M Warranty' },
   ],
 };
 const index = buildIndex(sample);
@@ -58,4 +69,27 @@ test('the bundled catalog is valid and every folder reference resolves', () => {
     for (const id of f.assetIds) assert.ok(real.assets.has(id), `${f.id} -> ${id}`);
   }
   assert.ok(search(real, 'wrap film').length > 0);
+});
+
+test('library groups parts > categories > subfolders and sorts', () => {
+  const parts = buildLibrary(index, () => true, 'new');
+  assert.deepEqual(parts.map((p) => p.name), ['Films', 'Cleaning']);
+  // Films has items of its own, so it is a category too, before its subfolders.
+  assert.deepEqual(parts[0].categories.map((c) => [c.name, c.count]), [['Films', 1], ['Wrap', 2]]);
+  assert.deepEqual(parts[0].categories[1].groups[0].assets.map((a) => a.id), ['2', '1']); // newest first
+  const az = buildLibrary(index, () => true, 'az');
+  assert.deepEqual(az[0].categories[1].groups[0].assets.map((a) => a.id), ['2', '1']); // B before W
+  const filtered = buildLibrary(index, (a) => a.id === '3', 'new');
+  assert.deepEqual(filtered.map((p) => p.name), ['Cleaning']);
+});
+
+test('dates and badges', () => {
+  assert.equal(dateLabel('2025-12-08'), 'Dec 2025');
+  assert.equal(dateLabel(undefined), 'n.d.');
+  assert.equal(isRecent('2026-06-01', new Date('2026-11-18')), true);
+  assert.equal(isRecent('2024-06-01', new Date('2026-11-18')), false);
+  assert.equal(isRecent(undefined), false);
+  assert.deepEqual(badge(sample.assets[0]), { text: 'Instruction Bulletin', style: 'red' });
+  assert.deepEqual(badge(sample.assets[1]), { text: 'Video', style: 'black' });
+  assert.deepEqual(badge(sample.assets[2]), { text: '3M Warranty', style: 'outline' });
 });

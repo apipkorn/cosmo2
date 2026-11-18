@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "orientation": "default",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
     },
@@ -30,6 +30,7 @@
     "experiments": {
       "typedRoutes": true,
       "baseUrl": "/cosmo2"
-    }
+    },
+    "backgroundColor": "#FFFFFF"
   }
 }

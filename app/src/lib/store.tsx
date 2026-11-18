@@ -19,12 +19,6 @@ const FAVORITES_KEY = 'favorites.v1';
 export const contentBase =
   Platform.OS === 'web' ? `${process.env.EXPO_BASE_URL ?? ''}/` : CONTENT_BASE_URL;
 
-/** Thumbnails are stored as a relative path or a full web address. */
-export function thumbUrl(thumb?: string): string | undefined {
-  if (!thumb) return undefined;
-  return thumb.startsWith('http') ? thumb : contentBase + thumb;
-}
-
 type Store = {
   index: Index;
   favorites: string[];

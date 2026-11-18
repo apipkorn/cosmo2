@@ -3,7 +3,7 @@ import { Platform, Share } from 'react-native';
 
 import type { Asset } from './catalog';
 
-/** Opens the PDF or video: in-app browser on phones, a new tab on the web. */
+/** Opens the document or video: in-app browser on phones, a new tab on the web. */
 export async function openAsset(asset: Asset): Promise<void> {
   if (Platform.OS === 'web') {
     window.open(asset.url, '_blank', 'noopener');

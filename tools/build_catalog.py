@@ -139,6 +139,8 @@ def build(assets_csv, folders_csv, thumbs_dir):
             warnings.append(f"{where}: title uses (TM)/(R) instead of ™/®: {title}")
 
         asset = {"id": aid, "title": title, "kind": kind, "url": url}
+        if row.get("Document Type"):
+            asset["docType"] = row["Document Type"]
         if row.get("Description"):
             asset["description"] = row["Description"]
         if row.get("Literature Number"):

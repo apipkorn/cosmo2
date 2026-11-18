@@ -1,7 +1,11 @@
 # CSD Content Hub
 
 A phone, tablet and web app for browsing 3M Commercial Solutions literature and
-videos. It is a separate project from the existing 3M™ COSMO app; "CSD Content
+videos. It shows the whole library on one page, styled after the CBTD Technical
+Document Library: categories in a black sidebar (a menu on phones), search,
+Newest / A–Z sorting, and a type badge and date on every item. Tapping a title
+opens the file; the star saves it to a Saved list, and the share button sends
+the link. It is a separate project from the existing 3M™ COSMO app; "CSD Content
 Hub" is a working name (see [Renaming](#renaming)).
 
 All content comes from two spreadsheets in this repository. Change a
@@ -27,6 +31,7 @@ Edit the files in `content/` and commit the change to `main`.
 | Title | Required. |
 | Description | Optional. Searchable. |
 | Type | `PDF`, `Video`, `Image`, `Presentation`, `Document`, `Archive` or `Link`. Guessed from the URL if blank. |
+| Document Type | Optional free text shown as the badge, e.g. `Product Bulletin`. Anything containing "instruction" shows red, "warranty" outlined. Blank shows the Type. |
 | URL | Required, must start with `https://`. For videos, the player link. |
 | Folders | Where it appears. Levels are separated by ` > `, and several folders by `;`. Example: `Products > Films; Training` |
 | Literature Number, Size (bytes), Created | Optional details shown on the item's page. |
@@ -37,6 +42,10 @@ Edit the files in `content/` and commit the change to `main`.
 **`content/folders.csv`** lists the folders in the order they should appear,
 with an optional description. A folder used in `assets.csv` but missing here is
 added at the end. Folders with nothing in them are not shown.
+
+How folders appear: top-level folders are the red headings in the sidebar, the
+folders directly under them are the sidebar entries (sections), and any deeper
+folders become grey sub-headings inside a section.
 
 In Excel, save as **CSV UTF-8 (Comma delimited)**. Plain "CSV" turns ™ and ®
 into question marks.
@@ -53,9 +62,8 @@ is only a suggestion.
 
 ### Preview images
 
-PDFs show `thumbs/<ID>.jpg` if that file exists, otherwise an icon. To give a
-new PDF a preview, save a JPEG of its first page under that name. This is a
-manual step because 3M's file server refuses downloads from automated servers.
+`thumbs/` holds first-page previews named `<ID>.jpg`. The current layout does
+not show them; they are kept for later use.
 
 ### Hidden assets
 
@@ -90,8 +98,8 @@ iPhone and Android builds are not set up yet. They need Expo's build service
 
 ## Renaming
 
-Change the name in three places: `APP_NAME` in `app/src/lib/config.ts`;
-`name`, `slug` and `scheme` in `app/app.json`; and the title of this file.
+Change the name, the red badge text and the small print in
+`app/src/lib/config.ts`. The name also appears in `name`, `slug` and `scheme` in `app/app.json`, and in the title of this file.
 
 If the website address changes, update `CONTENT_BASE_URL` in
 `app/src/lib/config.ts` and `experiments.baseUrl` in `app/app.json`.
